@@ -1,0 +1,16 @@
+﻿<Window x:Class="Igrica.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Kino Kviz" Height="373.881" Width="213.437" ResizeMode="NoResize">
+    <Grid Margin="0,0,2,0">
+        <Grid.Background>
+            <ImageBrush ImageSource="C:/Users/Armin/Desktop/cinema.jpg" Opacity="0.3"/>
+        </Grid.Background>
+        <Label Content="Da li ste spremni &#xD;&#xA;za Kino izazov ???" HorizontalAlignment="Left" Height="50" Margin="10,37,0,0" VerticalAlignment="Top" Width="183" FontSize="14" RenderTransformOrigin="0.872,0.687" FontFamily="Ravie"/>
+        <Button x:Name="Zapocni" Content="Započni igru!" HorizontalAlignment="Left" Height="38" Margin="36,129,0,0" VerticalAlignment="Top" Width="127" IsDefault="True"/>
+        <RadioButton x:Name="IgraSpajalica" Content="Spajalica" HorizontalAlignment="Left" Margin="52,250,0,0" VerticalAlignment="Top" FontFamily="Vani" FontWeight="Bold"/>
+        <RadioButton x:Name="IgraKoZnaZna" Content="Ko zna zna" HorizontalAlignment="Left" Margin="52,270,0,0" VerticalAlignment="Top" FontFamily="Vani" FontWeight="Bold"/>
+        <RadioButton x:Name="IgraSlika" Content="Poveži scenu" HorizontalAlignment="Left" Margin="52,230,0,0" VerticalAlignment="Top" FontFamily="Vani" FontWeight="Bold"/>
+
+    </Grid>
+</Window>
