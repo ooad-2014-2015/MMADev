@@ -1,0 +1,16 @@
+﻿<Window x:Class="Igrica.Resources.Sherlock.SherlockTeski"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Poveži scenu sa filmom" Height="308.955" Width="292" ResizeMode="NoResize">
+    <Grid>
+        <Grid Margin="0,0,0,-6">
+            <Image Source="../../Images/Sherlock Holmes.jpg" HorizontalAlignment="Left" Height="157" Margin="23,10,0,0" VerticalAlignment="Top" Width="246"/>
+            <Label Content="Unesi ime filma sa slike:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="73,172,0,0" Width="139"/>
+            <TextBox x:Name="UnosFilma" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="83,203,0,0"/>
+            <Button Content="Provjeri!" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="36,245,0,0" Click="Button_Click"/>
+            <Button Content="Završi igru" HorizontalAlignment="Left" Height="20" Margin="181,245,0,0" VerticalAlignment="Top" Width="88" Click="Button_Click_1"/>
+
+        </Grid>
+
+    </Grid>
+</Window>

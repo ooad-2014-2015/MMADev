@@ -1,0 +1,14 @@
+﻿<Window x:Class="Igrica.PoveziScenuAvatarLahki"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Poveži scenu sa filmom" Height="328.358" Width="312" ResizeMode="NoResize"
+        Name="avatarLahki">
+    <Grid Height="265" VerticalAlignment="Top">
+        <Image Source="../../Images/Avatar.jpg" HorizontalAlignment="Left" Height="162" Margin="23,10,0,0" VerticalAlignment="Top" Width="259"/>
+        <Label Content="Izaberi tačan odgovor:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="73,172,0,0" Width="139"/>
+        <Button Name="DugmeAvatar" Content="Avatar" HorizontalAlignment="Left" Height="25" Margin="36,203,0,0" VerticalAlignment="Top" Width="76" Click="Button_Click"/>
+        <Button Name="DugmeAlisauzemljiCuda" Content="Alisa u zemlji čuda" HorizontalAlignment="Left" VerticalAlignment="Top" Width="110" Margin="159,203,0,0" Height="25" Click="DugmeAlisauzemljiCuda_Click"/>
+        <Button Name="sljedeca" Content="Sljedeća slika" HorizontalAlignment="Left" Height="28" Margin="93,255,0,-18" VerticalAlignment="Top" Width="91" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>
