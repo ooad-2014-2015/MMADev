@@ -19,16 +19,28 @@ namespace Igrica.Klase
         private List<string> lista = new List<string>{"Avatar", "Titanic", "Sherlock Holmes"};
         public static int brojacT = 0;
         public static int brojacPoenaT = 0;
+        //varijabla koja ce nam pomoc da kontrolisemo bodove ukoliko se ne predje na sljedecu sliku
+        public static bool tacanOdgovor = false;
         public void igraj(string film)
         {
             if (film == lista[brojacT])
             {
-                MessageBox.Show("Tačno!", ":)");
-                brojacPoenaT++;
+                if (!tacanOdgovor)
+                {
+                    MessageBox.Show("Tačno!", ":)");
+                    brojacPoenaT++;
+                    tacanOdgovor = true;
+                }
             }
 
-            else MessageBox.Show("Netačno", ":(");
-
+            else
+            {
+                if (!tacanOdgovor)
+                {
+                    MessageBox.Show("Netačno", ":(");
+                    brojacPoenaT--;
+                }
+            }
         }
     }
 }

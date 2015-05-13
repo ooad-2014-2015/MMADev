@@ -77,24 +77,28 @@ namespace Igrica.Resources
                 drugiL.Background = Brushes.Red;
                 ClintEastwood.Background = Brushes.Red;
                 pritisnuti[1] = false;
+                poeni--;
             }
             else if (pritisnuti[2])
             {
                 treciL.Background = Brushes.Red;
                 ClintEastwood.Background = Brushes.Red;
                 pritisnuti[2] = false;
+                poeni--;
             }
             else if (pritisnuti[3])
             {
                 cetvrtiL.Background = Brushes.Red;
                 ClintEastwood.Background = Brushes.Red;
                 pritisnuti[3] = false;
+                poeni--;
             }
             else if (pritisnuti[4])
             {
                 petiL.Background = Brushes.Red;
                 ClintEastwood.Background = Brushes.Red;
                 pritisnuti[4] = false;
+                poeni--;
             }
         }
 
@@ -119,24 +123,28 @@ namespace Igrica.Resources
                 drugiL.Background = Brushes.Red;
                 VinDiesel.Background = Brushes.Red;
                 pritisnuti[1] = false;
+                poeni--;
             }
             else if (pritisnuti[0])
             {
                 prviL.Background = Brushes.Red;
                 VinDiesel.Background = Brushes.Red;
                 pritisnuti[0] = false;
+                poeni--;
             }
             else if (pritisnuti[3])
             {
                 cetvrtiL.Background = Brushes.Red;
                 VinDiesel.Background = Brushes.Red;
                 pritisnuti[3] = false;
+                poeni--;
             }
             else if (pritisnuti[4])
             {
                 petiL.Background = Brushes.Red;
                 VinDiesel.Background = Brushes.Red;
                 pritisnuti[4] = false;
+                poeni--;
             }
         }
 
@@ -159,24 +167,28 @@ namespace Igrica.Resources
                 drugiL.Background = Brushes.Red;
                 JasonStatham.Background = Brushes.Red;
                 pritisnuti[1] = false;
+                poeni--;
             }
             else if (pritisnuti[2])
             {
                 treciL.Background = Brushes.Red;
                 JasonStatham.Background = Brushes.Red;
                 pritisnuti[2] = false;
+                poeni--;
             }
             else if (pritisnuti[0])
             {
                 prviL.Background = Brushes.Red;
                 JasonStatham.Background = Brushes.Red;
                 pritisnuti[0] = false;
+                poeni--;
             }
             else if (pritisnuti[4])
             {
                 petiL.Background = Brushes.Red;
                 JasonStatham.Background = Brushes.Red;
                 pritisnuti[4] = false;
+                poeni--;
             }
         }
 
@@ -199,24 +211,28 @@ namespace Igrica.Resources
                 drugiL.Background = Brushes.Red;
                 ArnoldSchwarzenegger.Background = Brushes.Red;
                 pritisnuti[1] = false;
+                poeni--;
             }
             else if (pritisnuti[2])
             {
                 treciL.Background = Brushes.Red;
                 ArnoldSchwarzenegger.Background = Brushes.Red;
                 pritisnuti[2] = false;
+                poeni--;
             }
             else if (pritisnuti[3])
             {
                 cetvrtiL.Background = Brushes.Red;
                 ArnoldSchwarzenegger.Background = Brushes.Red;
                 pritisnuti[3] = false;
+                poeni--;
             }
             else if (pritisnuti[0])
             {
                 prviL.Background = Brushes.Red;
                 ArnoldSchwarzenegger.Background = Brushes.Red;
                 pritisnuti[0] = false;
+                poeni--;
             }
         }
 
@@ -245,30 +261,29 @@ namespace Igrica.Resources
                 prviL.Background = Brushes.Red;
                 LiamNeeson.Background = Brushes.Red;
                 pritisnuti[0] = false;
+                poeni--;
             }
             else if (pritisnuti[2])
             {
                 treciL.Background = Brushes.Red;
                 LiamNeeson.Background = Brushes.Red;
                 pritisnuti[2] = false;
+                poeni--;
             }
             else if (pritisnuti[3])
             {
                 cetvrtiL.Background = Brushes.Red;
                 LiamNeeson.Background = Brushes.Red;
                 pritisnuti[3] = false;
+                poeni--;
             }
             else if (pritisnuti[4])
             {
                 petiL.Background = Brushes.Red;
                 LiamNeeson.Background = Brushes.Red;
                 pritisnuti[4] = false;
+                poeni--;
             }
         }
-
-        
-
-
-
     }
 }

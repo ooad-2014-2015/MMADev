@@ -57,28 +57,35 @@
     <Compile Include="KoZnaZnaLahki.xaml.cs">
       <DependentUpon>KoZnaZnaLahki.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Resources\Avatar\PoveziScenuAvatarLahki.xaml.cs">
+    <Compile Include="KoZnaZnaTeski.xaml.cs">
+      <DependentUpon>KoZnaZnaTeski.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Povezi scenu\Avatar\PoveziScenuAvatarLahki.xaml.cs">
       <DependentUpon>PoveziScenuAvatarLahki.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Resources\Sherlock\SherlockLahki.xaml.cs">
+    <Compile Include="Povezi scenu\Sherlock\SherlockLahki.xaml.cs">
       <DependentUpon>SherlockLahki.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Resources\Sherlock\SherlockTeski.xaml.cs">
+    <Compile Include="Povezi scenu\Sherlock\SherlockTeski.xaml.cs">
       <DependentUpon>SherlockTeski.xaml</DependentUpon>
     </Compile>
     <Compile Include="SpajalicaTeski.xaml.cs">
       <DependentUpon>SpajalicaTeski.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Resources\Titanik\PoveziScenuTitanicLahki.xaml.cs">
+    <Compile Include="Povezi scenu\Titanik\PoveziScenuTitanicLahki.xaml.cs">
       <DependentUpon>PoveziScenuTitanicLahki.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Resources\Titanik\PoveziScenuTitanicTEski.xaml.cs">
+    <Compile Include="Povezi scenu\Titanik\PoveziScenuTitanicTEski.xaml.cs">
       <DependentUpon>PoveziScenuTitanicTEski.xaml</DependentUpon>
     </Compile>
     <Compile Include="SpajalicaLahki.xaml.cs">
       <DependentUpon>SpajalicaLahki.xaml</DependentUpon>
     </Compile>
     <Page Include="KoZnaZnaLahki.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="KoZnaZnaTeski.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -109,19 +116,19 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Resources\Avatar\PoveziScenuAvatar.xaml">
+    <Page Include="Povezi scenu\Avatar\PoveziScenuAvatar.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Resources\Avatar\PoveziScenuAvatarLahki.xaml">
+    <Page Include="Povezi scenu\Avatar\PoveziScenuAvatarLahki.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Resources\Sherlock\SherlockLahki.xaml">
+    <Page Include="Povezi scenu\Sherlock\SherlockLahki.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Resources\Sherlock\SherlockTeski.xaml">
+    <Page Include="Povezi scenu\Sherlock\SherlockTeski.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -129,11 +136,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Resources\Titanik\PoveziScenuTitanicLahki.xaml">
+    <Page Include="Povezi scenu\Titanik\PoveziScenuTitanicLahki.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Resources\Titanik\PoveziScenuTitanicTEski.xaml">
+    <Page Include="Povezi scenu\Titanik\PoveziScenuTitanicTEski.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -143,7 +150,7 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Resources\Avatar\PoveziScenuAvatar.xaml.cs">
+    <Compile Include="Povezi scenu\Avatar\PoveziScenuAvatar.xaml.cs">
       <DependentUpon>PoveziScenuAvatar.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">

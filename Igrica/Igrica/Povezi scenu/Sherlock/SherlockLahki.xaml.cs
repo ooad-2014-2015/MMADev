@@ -1,5 +1,4 @@
 ﻿using Igrica.Klase;
-using Igrica.Resources.Titanik;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,14 +13,14 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace Igrica
+namespace Igrica.Resources.Sherlock
 {
     /// <summary>
-    /// Interaction logic for PoveziScenuAvatarLahki.xaml
+    /// Interaction logic for SherlockLahki.xaml
     /// </summary>
-    public partial class PoveziScenuAvatarLahki : Window
+    public partial class SherlockLahki : Window
     {
-        public PoveziScenuAvatarLahki()
+        public SherlockLahki()
         {
             InitializeComponent();
         }
@@ -29,21 +28,22 @@ namespace Igrica
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             PrvaLahki novaIgra = new PrvaLahki();
-            novaIgra.igraj((string)DugmeAvatar.Content);
+            novaIgra.igraj((string)DugmeSherlock.Content);
         }
 
-        private void DugmeAlisauzemljiCuda_Click(object sender, RoutedEventArgs e)
+        private void Button1_Click(object sender, RoutedEventArgs e)
         {
             PrvaLahki novaIgra = new PrvaLahki();
-            novaIgra.igraj((string)DugmeAlisauzemljiCuda.Content);
+            novaIgra.igraj((string)DugmePrestige.Content);
         }
 
-        public void Button_Click_1(object sender, RoutedEventArgs e)
+        private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            PoveziScenuTitanicLahki novaforma = new PoveziScenuTitanicLahki();
-            novaforma.Show();
             this.Close();
-            PrvaLahki.brojacL++;
+            //nema potrebe za provjerom
+            //if (PrvaLahki.brojacPoenaL > 3) PrvaLahki.brojacPoenaL = 3;
+            MessageBox.Show("Kraj igre!! \nOsvojili ste " + Convert.ToString(PrvaLahki.brojacPoenaL) +"/3 poena");
+            PrvaLahki.tacanOdgovor = false;
         }
     }
 }

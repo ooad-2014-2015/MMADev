@@ -13,7 +13,17 @@ namespace Igrica.Klase
         private string odgovor2;
         private string odgovor3;
         private string odgovor4;
-        private int tacanOdgovor;
+        private string tacanOdgovor;
+        public Pitanje(string pitanje, string odgovor1, string odgovor2, string odgovor3,
+            string odgovor4, string tacanOdgovor)
+        {
+            this.pitanje = pitanje;
+            this.odgovor1 = odgovor1;
+            this.odgovor1 = odgovor2;
+            this.odgovor1 = odgovor3;
+            this.odgovor1 = odgovor4;
+            this.odgovor1 = tacanOdgovor;
+        }
         public string Pitanjee
         {
             get { return pitanje; }
@@ -43,7 +53,7 @@ namespace Igrica.Klase
             set { odgovor4 = value; }
         }
 
-        public int TacanOdgovor
+        public string TacanOdgovor
         {
             get { return tacanOdgovor; }
             set { tacanOdgovor = value; }

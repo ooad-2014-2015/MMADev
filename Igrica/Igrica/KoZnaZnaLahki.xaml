@@ -1,8 +1,13 @@
 ﻿<Window x:Class="Igrica.KoZnaZna"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Ko zna, zna" Height="300" Width="300">
+        Title="Ko zna, zna" Height="230" Width="373" ResizeMode="NoResize" Loaded="Window_Loaded">
     <Grid>
-        
+        <Label x:Name="pitanje" Content="Label" HorizontalAlignment="Left" Height="27" Margin="26,25,0,0" VerticalAlignment="Top" Width="316"/>
+        <Button x:Name="prviOdg" Content="Button" HorizontalAlignment="Left" Height="26" Margin="26,99,0,0" VerticalAlignment="Top" Width="146"/>
+        <Button x:Name="drugiOdg" Content="Button" HorizontalAlignment="Left" Height="26" Margin="219,99,0,0" VerticalAlignment="Top" Width="123"/>
+        <Button x:Name="treciOdg" Content="Button" HorizontalAlignment="Left" Height="27" Margin="26,155,0,0" VerticalAlignment="Top" Width="146"/>
+        <Button x:Name="cetvrtiOdg" Content="Button" HorizontalAlignment="Left" Height="27" Margin="219,155,0,0" VerticalAlignment="Top" Width="123"/>
+
     </Grid>
 </Window>

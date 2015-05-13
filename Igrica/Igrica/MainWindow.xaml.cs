@@ -77,5 +77,11 @@ namespace Igrica
             IzborNivoa.Visibility = Visibility.Visible;
         }
 
+        private void GlavnaForma_Loaded(object sender, RoutedEventArgs e)
+        {
+            //nije implementirana igra KoZnaZna u potpunosti
+            IgraKoZnaZna.Visibility = Visibility.Hidden;
+        }
+
     }
 }

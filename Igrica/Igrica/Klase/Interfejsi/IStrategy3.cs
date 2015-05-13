@@ -8,6 +8,6 @@ namespace Igrica.Klase.Interfejsi
 {
     public interface IStrategy3
     {
-        void igraj();
+        bool igraj(string odgovor, string tacan);
     }
 }

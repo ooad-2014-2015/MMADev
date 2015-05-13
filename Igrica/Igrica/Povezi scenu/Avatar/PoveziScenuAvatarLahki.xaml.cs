@@ -1,5 +1,5 @@
 ﻿using Igrica.Klase;
-using Igrica.Resources.Sherlock;
+using Igrica.Resources.Titanik;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,14 +14,14 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace Igrica.Resources.Titanik
+namespace Igrica
 {
     /// <summary>
-    /// Interaction logic for PoveziScenuTitanicLahki.xaml
+    /// Interaction logic for PoveziScenuAvatarLahki.xaml
     /// </summary>
-    public partial class PoveziScenuTitanicLahki : Window
+    public partial class PoveziScenuAvatarLahki : Window
     {
-        public PoveziScenuTitanicLahki()
+        public PoveziScenuAvatarLahki()
         {
             InitializeComponent();
         }
@@ -29,21 +29,22 @@ namespace Igrica.Resources.Titanik
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             PrvaLahki novaIgra = new PrvaLahki();
-            novaIgra.igraj((string)DugmeTitanik.Content);
+            novaIgra.igraj((string)DugmeAvatar.Content);
         }
 
-        private void Button1_Click(object sender, RoutedEventArgs e)
+        private void DugmeAlisauzemljiCuda_Click(object sender, RoutedEventArgs e)
         {
             PrvaLahki novaIgra = new PrvaLahki();
-            novaIgra.igraj((string)DugmeShipWreck.Content);
+            novaIgra.igraj((string)DugmeAlisauzemljiCuda.Content);
         }
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
+        public void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            SherlockLahki novaForma = new SherlockLahki();
-            novaForma.Show();
+            PoveziScenuTitanicLahki novaforma = new PoveziScenuTitanicLahki();
+            novaforma.Show();
             this.Close();
             PrvaLahki.brojacL++;
+            PrvaLahki.tacanOdgovor = false;
         }
     }
 }

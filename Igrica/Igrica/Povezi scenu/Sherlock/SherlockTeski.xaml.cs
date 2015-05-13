@@ -38,9 +38,10 @@ namespace Igrica.Resources.Sherlock
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             this.Close();
-            if (PrvaTeski.brojacPoenaT > 3) PrvaTeski.brojacPoenaT = 3;
+            //nema potrebe za provjerom
+            //if (PrvaTeski.brojacPoenaT > 3) PrvaTeski.brojacPoenaT = 3;
             MessageBox.Show("Kraj igre!! \nOsvojili ste " + Convert.ToString(PrvaTeski.brojacPoenaT) + "/3 poena");
-            
+            PrvaTeski.tacanOdgovor = false;
         }
     }
 }

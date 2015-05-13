@@ -77,24 +77,28 @@ namespace Igrica
                 drugiL.Background = Brushes.Red;
                 AngelinaJolie.Background = Brushes.Red;
                 pritisnuti[1] = false;
+                poeni--;
             }
             else if (pritisnuti[2])
             {
                 treciL.Background = Brushes.Red;
                 AngelinaJolie.Background = Brushes.Red;
                 pritisnuti[2] = false;
+                poeni--;
             }
             else if (pritisnuti[3])
             {
                 cetvrtiL.Background = Brushes.Red;
                 AngelinaJolie.Background = Brushes.Red;
                 pritisnuti[3] = false;
+                poeni--;
             }
             else if (pritisnuti[4])
             {
                 petiL.Background = Brushes.Red;
                 AngelinaJolie.Background = Brushes.Red;
                 pritisnuti[4] = false;
+                poeni--;
             }
         }
 
@@ -117,24 +121,28 @@ namespace Igrica
                 prviL.Background = Brushes.Red;
                 BradleyCooper.Background = Brushes.Red;
                 pritisnuti[0] = false;
+                poeni--;
             }
             else if (pritisnuti[2])
             {
                 treciL.Background = Brushes.Red;
                 BradleyCooper.Background = Brushes.Red;
                 pritisnuti[2] = false;
+                poeni--;
             }
             else if (pritisnuti[3])
             {
                 cetvrtiL.Background = Brushes.Red;
                 BradleyCooper.Background = Brushes.Red;
                 pritisnuti[3] = false;
+                poeni--;
             }
             else if (pritisnuti[4])
             {
                 petiL.Background = Brushes.Red;
                 BradleyCooper.Background = Brushes.Red;
                 pritisnuti[4] = false;
+                poeni--;
             }
         }
 
@@ -157,24 +165,28 @@ namespace Igrica
                 drugiL.Background = Brushes.Red;
                 TomHanks.Background = Brushes.Red;
                 pritisnuti[1] = false;
+                poeni--;
             }
             else if (pritisnuti[0])
             {
                 prviL.Background = Brushes.Red;
                 TomHanks.Background = Brushes.Red;
                 pritisnuti[0] = false;
+                poeni--;
             }
             else if (pritisnuti[3])
             {
                 cetvrtiL.Background = Brushes.Red;
                 TomHanks.Background = Brushes.Red;
                 pritisnuti[3] = false;
+                poeni--;
             }
             else if (pritisnuti[4])
             {
                 petiL.Background = Brushes.Red;
                 TomHanks.Background = Brushes.Red;
                 pritisnuti[4] = false;
+                poeni--;
             }
         }
 
@@ -197,24 +209,28 @@ namespace Igrica
                 drugiL.Background = Brushes.Red;
                 NicolasCage.Background = Brushes.Red;
                 pritisnuti[1] = false;
+                poeni--;
             }
             else if (pritisnuti[2])
             {
                 treciL.Background = Brushes.Red;
                 NicolasCage.Background = Brushes.Red;
                 pritisnuti[2] = false;
+                poeni--;
             }
             else if (pritisnuti[0])
             {
                 prviL.Background = Brushes.Red;
                 NicolasCage.Background = Brushes.Red;
                 pritisnuti[0] = false;
+                poeni--;
             }
             else if (pritisnuti[4])
             {
                 petiL.Background = Brushes.Red;
                 NicolasCage.Background = Brushes.Red;
                 pritisnuti[4] = false;
+                poeni--;
             }
         }
 
@@ -237,24 +253,28 @@ namespace Igrica
                 drugiL.Background = Brushes.Red;
                 EmmaWatson.Background = Brushes.Red;
                 pritisnuti[1] = false;
+                poeni--;
             }
             else if (pritisnuti[2])
             {
                 treciL.Background = Brushes.Red;
                 EmmaWatson.Background = Brushes.Red;
                 pritisnuti[2] = false;
+                poeni--;
             }
             else if (pritisnuti[3])
             {
                 cetvrtiL.Background = Brushes.Red;
                 EmmaWatson.Background = Brushes.Red;
                 pritisnuti[3] = false;
+                poeni--;
             }
             else if (pritisnuti[0])
             {
                 prviL.Background = Brushes.Red;
                 EmmaWatson.Background = Brushes.Red;
                 pritisnuti[0] = false;
+                poeni--;
             }
         }
 

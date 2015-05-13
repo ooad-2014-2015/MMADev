@@ -11,7 +11,7 @@
             <Button x:Name="petiL" Content="Arnold Schwarzenegger" HorizontalAlignment="Left" VerticalAlignment="Top" Width="137" RenderTransformOrigin="1.081,4.247" Margin="10,190,0,0" Click="petiL_Click" Height="34"/>
             <Button x:Name="JasonStatham" Content="Parker" HorizontalAlignment="Left" VerticalAlignment="Top" Width="136" Margin="162,18,0,0" Height="35" Click="JasonStatham_Click" />
             <Button x:Name="ArnoldSchwarzenegger" Content="Kindergarten Cop" HorizontalAlignment="Left" VerticalAlignment="Top" Width="136" Margin="162,145,0,0" Height="34" RenderTransformOrigin="1.536,-0.741" Click="ArnoldSchwarzenegger_Click"/>
-            <Button x:Name="LiamNeeson" Content="After life" HorizontalAlignment="Left" VerticalAlignment="Top" Width="136" Margin="162,191,0,0" Height="32" Click="LiamNeeson_Click" />
+            <Button x:Name="LiamNeeson" Content="After.Life" HorizontalAlignment="Left" VerticalAlignment="Top" Width="136" Margin="162,191,0,0" Height="32" Click="LiamNeeson_Click" />
             <Button x:Name="ClintEastwood" Content="Dirty Harry" HorizontalAlignment="Left" VerticalAlignment="Top" Width="136" Margin="162,102,0,0" RenderTransformOrigin="0.513,6.548" Height="32" Click="ClintEastwood_Click"/>
             <Button x:Name="VinDiesel" Content="Riddick" HorizontalAlignment="Left" VerticalAlignment="Top" Width="136" Margin="162,60,0,0" Height="32" Click="VinDiesel_Click" />
             <Button Content="Završi igru" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="118,248,0,0" Click="Button_Click"/>

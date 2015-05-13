@@ -9,7 +9,9 @@ namespace Igrica.Klase
 {
     public class TrecaTeski: IStrategy3
     {
-        public void igraj()
-        { }
+        public bool igraj(string odgovor, string tacan)
+        {
+            return odgovor == tacan;
+        }
     }
 }

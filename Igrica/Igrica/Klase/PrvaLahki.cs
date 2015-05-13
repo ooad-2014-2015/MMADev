@@ -22,21 +22,27 @@ namespace Igrica.Klase
         private List<string> lista = new List<string> { "Avatar", "Titanic", "Sherlock Holmes"};
         public static int brojacL = 0;
         public static int brojacPoenaL = 0;
+        //varijabla koja ce nam pomoc da kontrolisemo bodove ukoliko se ne predje na sljedecu sliku
+        public static bool tacanOdgovor = false;
         public void igraj(string film)
         {
             if (film == lista[brojacL])
             {
-                MessageBox.Show("Tačno!", "Tačan odgovor :)");
-                brojacPoenaL++;
+                if (!tacanOdgovor)
+                {
+                    MessageBox.Show("Tačno!", "Tačan odgovor :)");
+                    brojacPoenaL++;
+                    tacanOdgovor = true;
+                }
             }
 
             else
             {
-               // if(
-                MessageBox.Show("Netačno", "Netačan odgovor :(", MessageBoxButton.OK);// == MessageBoxResult.OK)
-
-                 //   ((PoveziScenuAvatarLahki)Application.Current.MainWindow).sljedeca.RaiseEvent(new RoutedEventArgs(ButtonBase.ClickEvent));
-                
+                if (!tacanOdgovor)
+                {
+                    MessageBox.Show("Netačno", "Netačan odgovor :(", MessageBoxButton.OK);
+                    brojacPoenaL--;
+                }
             }
             
         }

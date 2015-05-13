@@ -1,5 +1,5 @@
 ﻿using Igrica.Klase;
-using Igrica.Resources.Sherlock;
+using Igrica.Resources.Titanik;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,14 +14,14 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace Igrica.Resources.Titanik
+namespace Igrica
 {
     /// <summary>
-    /// Interaction logic for PoveziScenuTitanicTEski.xaml
+    /// Interaction logic for PoveziScenu.xaml
     /// </summary>
-    public partial class PoveziScenuTitanicTEski : Window
+    public partial class PoveziScenu : Window
     {
-        public PoveziScenuTitanicTEski()
+        public PoveziScenu()
         {
             InitializeComponent();
         }
@@ -34,10 +34,11 @@ namespace Igrica.Resources.Titanik
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            SherlockTeski novaForma = new SherlockTeski();
+            PoveziScenuTitanicTEski novaForma = new PoveziScenuTitanicTEski();
             novaForma.Show();
             this.Close();
             PrvaTeski.brojacT++;
+            PrvaTeski.tacanOdgovor = false;
         }
     }
 }
