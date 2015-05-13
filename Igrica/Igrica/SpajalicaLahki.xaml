@@ -1,0 +1,19 @@
+﻿<Window x:Class="Igrica.Spajalica"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Spoji glumce i filmove" Height="322.387" Width="314.925" ResizeMode="NoResize" Background="#FFEEE481">
+    <Grid>
+        <Button Name="prviL" Content="Angelina Jolie" HorizontalAlignment="Left" VerticalAlignment="Top" Width="107" RenderTransformOrigin="1.081,4.247" Margin="40,18,0,0" Click="prviL_Click" Height="32"/>
+        <Button Name="drugiL"  Content="Bradley Cooper" HorizontalAlignment="Left" VerticalAlignment="Top" Width="107" RenderTransformOrigin="1.081,4.247" Margin="40,60,0,0" Click="drugiL_Click" Height="32"/>
+        <Button Name="treciL" Content="Tom Hanks" HorizontalAlignment="Left" VerticalAlignment="Top" Width="107" RenderTransformOrigin="1.081,4.247" Margin="40,102,0,0" Click="treciL_Click" Height="32"/>
+        <Button Name="cetvrtiL" Content="Nicolas Cage" HorizontalAlignment="Left" VerticalAlignment="Top" Width="107" RenderTransformOrigin="1.081,4.247" Margin="40,144,0,0" Click="cetvrtiL_Click" Height="35"/>
+        <Button Name="petiL" Content="Ema Watson" HorizontalAlignment="Left" VerticalAlignment="Top" Width="107" RenderTransformOrigin="1.081,4.247" Margin="40,190,0,0" Click="petiL_Click" Height="34"/>
+        <Button Name="AngelinaJolie" Content="Mr. and Mrs. Smith" HorizontalAlignment="Left" VerticalAlignment="Top" Width="107" Margin="162,144,0,0" Height="35" Click="AngelinaJolie_Click_1"/>
+        <Button x:Name="BradleyCooper" Content="American sniper" HorizontalAlignment="Left" VerticalAlignment="Top" Width="107" Margin="162,190,0,0" Height="34" Click="BradleyCooper_Click"/>
+        <Button x:Name="TomHanks" Content="The Green Mile" HorizontalAlignment="Left" VerticalAlignment="Top" Width="107" Margin="162,60,0,0" Height="32" Click="TomHanks_Click"/>
+        <Button x:Name="NicolasCage" Content="National Treasure" HorizontalAlignment="Left" VerticalAlignment="Top" Width="107" Margin="162,18,0,0" RenderTransformOrigin="0.513,6.548" Height="32" Click="NicolasCage_Click"/>
+        <Button x:Name="EmmaWatson" Content="Harry Potter" HorizontalAlignment="Left" VerticalAlignment="Top" Width="107" Margin="162,102,0,0" Height="32" Click="EmmaWatson_Click"/>
+        <Button Content="Završi igru" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="118,248,0,0" Click="Button_Click"/>
+
+    </Grid>
+</Window>

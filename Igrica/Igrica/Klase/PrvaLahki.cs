@@ -26,14 +26,14 @@ namespace Igrica.Klase
         {
             if (film == lista[brojacL])
             {
-                MessageBox.Show("Tačno!");
+                MessageBox.Show("Tačno!", "Tačan odgovor :)");
                 brojacPoenaL++;
             }
 
             else
             {
                // if(
-                MessageBox.Show("Netačno", "Netačan odgovor", MessageBoxButton.OK);// == MessageBoxResult.OK)
+                MessageBox.Show("Netačno", "Netačan odgovor :(", MessageBoxButton.OK);// == MessageBoxResult.OK)
 
                  //   ((PoveziScenuAvatarLahki)Application.Current.MainWindow).sljedeca.RaiseEvent(new RoutedEventArgs(ButtonBase.ClickEvent));
                 

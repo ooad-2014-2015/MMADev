@@ -23,11 +23,11 @@ namespace Igrica.Klase
         {
             if (film == lista[brojacT])
             {
-                MessageBox.Show("Tacno!");
+                MessageBox.Show("Tačno!", ":)");
                 brojacPoenaT++;
             }
 
-            else MessageBox.Show("Netacno");
+            else MessageBox.Show("Netačno", ":(");
 
         }
     }

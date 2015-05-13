@@ -1,4 +1,5 @@
 ﻿using Igrica.Klase;
+using Igrica.Resources;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -29,6 +30,10 @@ namespace Igrica
 
         private void zapocni(object sender, RoutedEventArgs e)
         {
+            PrvaLahki.brojacL = 0;
+            PrvaLahki.brojacPoenaL = 0;
+            PrvaTeski.brojacT = 0;
+            PrvaTeski.brojacPoenaT = 0;
             if (IgraSlika.IsChecked == true)
             {
                 PrvaIgra igra = new PrvaIgra();
@@ -39,8 +44,9 @@ namespace Igrica
 
             else if(IgraSpajalica.IsChecked == true)
             {
-                Spajalica igra2 = new Spajalica();
-                igra2.Show();
+                DrugaIgra igra = new DrugaIgra();
+                igra.izaberiNivo((bool)LahkiNivo.IsChecked);
+
               //  this.Visibility = Visibility.Hidden;
             }
 

@@ -9,7 +9,9 @@ namespace Igrica.Klase
 {
     public class DrugaLahki: IStrategy2
     {
-        public void igraj()
-        { }
+        public bool igraj(string glumac, string film)
+        {
+            return film.Substring(0,3) == glumac.Substring(0,3);
+        }
     }
 }
