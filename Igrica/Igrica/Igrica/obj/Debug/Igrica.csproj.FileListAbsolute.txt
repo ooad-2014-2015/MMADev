@@ -1,0 +1,199 @@
+C:\Users\Armin\Desktop\II godina\IV semestar\ooad\Igrica\Igrica\bin\Debug\Igrica.exe.config
+C:\Users\Armin\Desktop\II godina\IV semestar\ooad\Igrica\Igrica\bin\Debug\Igrica.exe
+C:\Users\Armin\Desktop\II godina\IV semestar\ooad\Igrica\Igrica\bin\Debug\Igrica.pdb
+C:\Users\Armin\Desktop\II godina\IV semestar\ooad\Igrica\Igrica\obj\Debug\Igrica.csprojResolveAssemblyReference.cache
+C:\Users\Armin\Desktop\II godina\IV semestar\ooad\Igrica\Igrica\obj\Debug\MainWindow.baml
+C:\Users\Armin\Desktop\II godina\IV semestar\ooad\Igrica\Igrica\obj\Debug\MainWindow.g.cs
+C:\Users\Armin\Desktop\II godina\IV semestar\ooad\Igrica\Igrica\obj\Debug\App.g.cs
+C:\Users\Armin\Desktop\II godina\IV semestar\ooad\Igrica\Igrica\obj\Debug\Igrica_MarkupCompile.cache
+C:\Users\Armin\Desktop\II godina\IV semestar\ooad\Igrica\Igrica\obj\Debug\Igrica.g.resources
+C:\Users\Armin\Desktop\II godina\IV semestar\ooad\Igrica\Igrica\obj\Debug\Igrica.Properties.Resources.resources
+C:\Users\Armin\Desktop\II godina\IV semestar\ooad\Igrica\Igrica\obj\Debug\Igrica.csproj.GenerateResource.Cache
+C:\Users\Armin\Desktop\II godina\IV semestar\ooad\Igrica\Igrica\obj\Debug\Igrica.exe
+C:\Users\Armin\Desktop\II godina\IV semestar\ooad\Igrica\Igrica\obj\Debug\Igrica.pdb
+C:\Users\Armin\Desktop\II godina\IV semestar\ooad\Igrica\Igrica\obj\Debug\Igrica_Content.g.cs
+C:\Users\Armin\Desktop\II godina\IV semestar\ooad\Igrica\Igrica\bin\Debug\Images\cinema.jpg
+E:\Git\MMADev\Igrica - VS\Igrica\bin\Debug\Igrica.exe.config
+E:\Git\MMADev\Igrica - VS\Igrica\obj\Debug\Igrica.exe
+E:\Git\MMADev\Igrica - VS\Igrica\obj\Debug\Igrica.pdb
+E:\Git\MMADev\Igrica - VS\Igrica\obj\Debug\Igrica.csprojResolveAssemblyReference.cache
+E:\Git\MMADev\Igrica - VS\Igrica\obj\Debug\App.g.cs
+E:\Git\MMADev\Igrica - VS\Igrica\obj\Debug\Igrica_Content.g.cs
+E:\Git\MMADev\Igrica - VS\Igrica\obj\Debug\Igrica_MarkupCompile.cache
+E:\Git\MMADev\Igrica - VS\Igrica\bin\Debug\Images\cinema.jpg
+E:\Git\MMADev\Igrica - VS\Igrica\bin\Debug\Igrica.exe
+E:\Git\MMADev\Igrica - VS\Igrica\bin\Debug\Igrica.pdb
+E:\Git\MMADev\Igrica - VS\Igrica\obj\Debug\MainWindow.baml
+E:\Git\MMADev\Igrica - VS\Igrica\obj\Debug\MainWindow.g.cs
+E:\Git\MMADev\Igrica - VS\Igrica\obj\Debug\Igrica.g.resources
+E:\Git\MMADev\Igrica - VS\Igrica\obj\Debug\Igrica.Properties.Resources.resources
+E:\Git\MMADev\Igrica - VS\Igrica\obj\Debug\Igrica.csproj.GenerateResource.Cache
+E:\Git\MMADev\Igrica\Igrica\Igrica\bin\Debug\Igrica.exe.config
+E:\Git\MMADev\Igrica\Igrica\Igrica\obj\Debug\Igrica.exe
+E:\Git\MMADev\Igrica\Igrica\Igrica\obj\Debug\Igrica.pdb
+E:\Git\MMADev\Igrica\Igrica\Igrica\obj\Debug\Igrica.csprojResolveAssemblyReference.cache
+E:\Git\MMADev\Igrica\Igrica\Igrica\obj\Debug\MainWindow.baml
+E:\Git\MMADev\Igrica\Igrica\Igrica\obj\Debug\MainWindow.g.cs
+E:\Git\MMADev\Igrica\Igrica\Igrica\obj\Debug\App.g.cs
+E:\Git\MMADev\Igrica\Igrica\Igrica\obj\Debug\Igrica_Content.g.cs
+E:\Git\MMADev\Igrica\Igrica\Igrica\obj\Debug\Igrica_MarkupCompile.cache
+E:\Git\MMADev\Igrica\Igrica\Igrica\obj\Debug\Igrica.g.resources
+E:\Git\MMADev\Igrica\Igrica\Igrica\obj\Debug\Igrica.Properties.Resources.resources
+E:\Git\MMADev\Igrica\Igrica\Igrica\obj\Debug\Igrica.csproj.GenerateResource.Cache
+E:\Git\MMADev\Igrica\Igrica\Igrica\bin\Debug\Images\cinema.jpg
+E:\Git\MMADev\Igrica\Igrica\Igrica\bin\Debug\Igrica.exe
+E:\Git\MMADev\Igrica\Igrica\Igrica\bin\Debug\Igrica.pdb
+E:\Git\MMADev\Igrica\Igrica\Igrica\obj\Debug\KoZnaZna.baml
+E:\Git\MMADev\Igrica\Igrica\Igrica\obj\Debug\Spajalica.baml
+E:\Git\MMADev\Igrica\Igrica\Igrica\obj\Debug\KoZnaZna.g.cs
+E:\Git\MMADev\Igrica\Igrica\Igrica\obj\Debug\Spajalica.g.cs
+E:\Git\MMADev\Igrica\Igrica\Igrica\obj\Debug\Resources\Avatar\PoveziScenuAvatar.baml
+E:\Git\MMADev\Igrica\Igrica\Igrica\obj\Debug\Resources\Avatar\PoveziScenuAvatarLahki.baml
+E:\Git\MMADev\Igrica\Igrica\Igrica\obj\Debug\Resources\Titanik\PoveziScenuTitanicLahki.baml
+E:\Git\MMADev\Igrica\Igrica\Igrica\obj\Debug\Resources\Avatar\PoveziScenuAvatar.g.cs
+E:\Git\MMADev\Igrica\Igrica\Igrica\obj\Debug\Resources\Avatar\PoveziScenuAvatarLahki.g.cs
+E:\Git\MMADev\Igrica\Igrica\Igrica\obj\Debug\Resources\Titanik\PoveziScenuTitanicLahki.g.cs
+E:\Git\MMADev\Igrica\Igrica\Igrica\obj\Debug\Resources\Titanik\PoveziScenuTitanicTEski.baml
+E:\Git\MMADev\Igrica\Igrica\Igrica\obj\Debug\Resources\Titanik\PoveziScenuTitanicTEski.g.cs
+E:\Git\MMADev\Igrica\Igrica\Igrica\obj\Debug\Resources\Sherlock\SherlockLahki.baml
+E:\Git\MMADev\Igrica\Igrica\Igrica\obj\Debug\Resources\Sherlock\SherlockLahki.g.cs
+E:\Git\MMADev\Igrica\Igrica\Igrica\obj\Debug\Resources\Sherlock\SherlockTeski.baml
+E:\Git\MMADev\Igrica\Igrica\Igrica\obj\Debug\Resources\Sherlock\SherlockTeski.g.cs
+C:\Users\Merisa Golić\Desktop\Igrica\Igrica\bin\Debug\Igrica.exe.config
+C:\Users\Merisa Golić\Desktop\Igrica\Igrica\obj\Debug\Igrica.exe
+C:\Users\Merisa Golić\Desktop\Igrica\Igrica\obj\Debug\Igrica.pdb
+C:\Users\Merisa Golić\Desktop\Igrica\Igrica\obj\Debug\Igrica.csprojResolveAssemblyReference.cache
+C:\Users\Merisa Golić\Desktop\Igrica\Igrica\obj\Debug\KoZnaZnaLahki.baml
+C:\Users\Merisa Golić\Desktop\Igrica\Igrica\obj\Debug\MainWindow.baml
+C:\Users\Merisa Golić\Desktop\Igrica\Igrica\obj\Debug\Resources\Avatar\PoveziScenuAvatar.baml
+C:\Users\Merisa Golić\Desktop\Igrica\Igrica\obj\Debug\Resources\Avatar\PoveziScenuAvatarLahki.baml
+C:\Users\Merisa Golić\Desktop\Igrica\Igrica\obj\Debug\Resources\Sherlock\SherlockLahki.baml
+C:\Users\Merisa Golić\Desktop\Igrica\Igrica\obj\Debug\Resources\Sherlock\SherlockTeski.baml
+C:\Users\Merisa Golić\Desktop\Igrica\Igrica\obj\Debug\SpajalicaTeski.baml
+C:\Users\Merisa Golić\Desktop\Igrica\Igrica\obj\Debug\Resources\Titanik\PoveziScenuTitanicLahki.baml
+C:\Users\Merisa Golić\Desktop\Igrica\Igrica\obj\Debug\Resources\Titanik\PoveziScenuTitanicTEski.baml
+C:\Users\Merisa Golić\Desktop\Igrica\Igrica\obj\Debug\KoZnaZnaLahki.g.cs
+C:\Users\Merisa Golić\Desktop\Igrica\Igrica\obj\Debug\MainWindow.g.cs
+C:\Users\Merisa Golić\Desktop\Igrica\Igrica\obj\Debug\Resources\Avatar\PoveziScenuAvatar.g.cs
+C:\Users\Merisa Golić\Desktop\Igrica\Igrica\obj\Debug\Resources\Avatar\PoveziScenuAvatarLahki.g.cs
+C:\Users\Merisa Golić\Desktop\Igrica\Igrica\obj\Debug\Resources\Sherlock\SherlockLahki.g.cs
+C:\Users\Merisa Golić\Desktop\Igrica\Igrica\obj\Debug\Resources\Sherlock\SherlockTeski.g.cs
+C:\Users\Merisa Golić\Desktop\Igrica\Igrica\obj\Debug\SpajalicaTeski.g.cs
+C:\Users\Merisa Golić\Desktop\Igrica\Igrica\obj\Debug\Resources\Titanik\PoveziScenuTitanicLahki.g.cs
+C:\Users\Merisa Golić\Desktop\Igrica\Igrica\obj\Debug\Resources\Titanik\PoveziScenuTitanicTEski.g.cs
+C:\Users\Merisa Golić\Desktop\Igrica\Igrica\obj\Debug\App.g.cs
+C:\Users\Merisa Golić\Desktop\Igrica\Igrica\obj\Debug\Igrica_Content.g.cs
+C:\Users\Merisa Golić\Desktop\Igrica\Igrica\obj\Debug\Igrica_MarkupCompile.cache
+C:\Users\Merisa Golić\Desktop\Igrica\Igrica\bin\Debug\Images\cinema.jpg
+C:\Users\Merisa Golić\Desktop\Igrica\Igrica\bin\Debug\Igrica.exe
+C:\Users\Merisa Golić\Desktop\Igrica\Igrica\bin\Debug\Igrica.pdb
+C:\Users\Merisa Golić\Desktop\Igrica\Igrica\obj\Debug\SpajalicaLahki.baml
+C:\Users\Merisa Golić\Desktop\Igrica\Igrica\obj\Debug\SpajalicaLahki.g.cs
+C:\Users\Merisa Golić\Desktop\Igrica\Igrica\obj\Debug\Igrica.g.resources
+C:\Users\Merisa Golić\Desktop\Igrica\Igrica\obj\Debug\Igrica.Properties.Resources.resources
+C:\Users\Merisa Golić\Desktop\Igrica\Igrica\obj\Debug\Igrica.csproj.GenerateResource.Cache
+E:\Git\MMADev\Igrica\Igrica\bin\Debug\Igrica.exe.config
+E:\Git\MMADev\Igrica\Igrica\obj\Debug\Igrica.exe
+E:\Git\MMADev\Igrica\Igrica\obj\Debug\Igrica.pdb
+E:\Git\MMADev\Igrica\Igrica\obj\Debug\Igrica.csprojResolveAssemblyReference.cache
+E:\Git\MMADev\Igrica\Igrica\obj\Debug\KoZnaZnaLahki.baml
+E:\Git\MMADev\Igrica\Igrica\obj\Debug\KoZnaZnaTeski.baml
+E:\Git\MMADev\Igrica\Igrica\obj\Debug\MainWindow.baml
+E:\Git\MMADev\Igrica\Igrica\obj\Debug\Povezi scenu\Avatar\PoveziScenuAvatar.baml
+E:\Git\MMADev\Igrica\Igrica\obj\Debug\Povezi scenu\Avatar\PoveziScenuAvatarLahki.baml
+E:\Git\MMADev\Igrica\Igrica\obj\Debug\Povezi scenu\Sherlock\SherlockLahki.baml
+E:\Git\MMADev\Igrica\Igrica\obj\Debug\Povezi scenu\Sherlock\SherlockTeski.baml
+E:\Git\MMADev\Igrica\Igrica\obj\Debug\SpajalicaTeski.baml
+E:\Git\MMADev\Igrica\Igrica\obj\Debug\Povezi scenu\Titanik\PoveziScenuTitanicLahki.baml
+E:\Git\MMADev\Igrica\Igrica\obj\Debug\Povezi scenu\Titanik\PoveziScenuTitanicTEski.baml
+E:\Git\MMADev\Igrica\Igrica\obj\Debug\SpajalicaLahki.baml
+E:\Git\MMADev\Igrica\Igrica\obj\Debug\KoZnaZnaLahki.g.cs
+E:\Git\MMADev\Igrica\Igrica\obj\Debug\KoZnaZnaTeski.g.cs
+E:\Git\MMADev\Igrica\Igrica\obj\Debug\MainWindow.g.cs
+E:\Git\MMADev\Igrica\Igrica\obj\Debug\Povezi scenu\Avatar\PoveziScenuAvatar.g.cs
+E:\Git\MMADev\Igrica\Igrica\obj\Debug\Povezi scenu\Avatar\PoveziScenuAvatarLahki.g.cs
+E:\Git\MMADev\Igrica\Igrica\obj\Debug\Povezi scenu\Sherlock\SherlockLahki.g.cs
+E:\Git\MMADev\Igrica\Igrica\obj\Debug\Povezi scenu\Sherlock\SherlockTeski.g.cs
+E:\Git\MMADev\Igrica\Igrica\obj\Debug\SpajalicaTeski.g.cs
+E:\Git\MMADev\Igrica\Igrica\obj\Debug\Povezi scenu\Titanik\PoveziScenuTitanicLahki.g.cs
+E:\Git\MMADev\Igrica\Igrica\obj\Debug\Povezi scenu\Titanik\PoveziScenuTitanicTEski.g.cs
+E:\Git\MMADev\Igrica\Igrica\obj\Debug\SpajalicaLahki.g.cs
+E:\Git\MMADev\Igrica\Igrica\obj\Debug\App.g.cs
+E:\Git\MMADev\Igrica\Igrica\obj\Debug\Igrica_Content.g.cs
+E:\Git\MMADev\Igrica\Igrica\obj\Debug\Igrica_MarkupCompile.cache
+E:\Git\MMADev\Igrica\Igrica\obj\Debug\Igrica.g.resources
+E:\Git\MMADev\Igrica\Igrica\obj\Debug\Igrica.Properties.Resources.resources
+E:\Git\MMADev\Igrica\Igrica\obj\Debug\Igrica.csproj.GenerateResource.Cache
+E:\Git\MMADev\Igrica\Igrica\bin\Debug\Images\cinema.jpg
+E:\Git\MMADev\Igrica\Igrica\bin\Debug\Igrica.exe
+E:\Git\MMADev\Igrica\Igrica\bin\Debug\Igrica.pdb
+C:\Users\Armin\Desktop\Igrica\Igrica\bin\Debug\Igrica.exe.config
+C:\Users\Armin\Desktop\Igrica\Igrica\obj\Debug\Igrica.exe
+C:\Users\Armin\Desktop\Igrica\Igrica\obj\Debug\Igrica.pdb
+C:\Users\Armin\Desktop\Igrica\Igrica\bin\Debug\Images\cinema.jpg
+C:\Users\Armin\Desktop\Igrica\Igrica\bin\Debug\Igrica.exe
+C:\Users\Armin\Desktop\Igrica\Igrica\bin\Debug\Igrica.pdb
+C:\Users\Armin\Desktop\Igrica\Igrica\obj\Debug\Igrica.csprojResolveAssemblyReference.cache
+C:\Users\Armin\Desktop\Igrica\Igrica\obj\Debug\KoZnaZnaLahki.baml
+C:\Users\Armin\Desktop\Igrica\Igrica\obj\Debug\KoZnaZnaTeski.baml
+C:\Users\Armin\Desktop\Igrica\Igrica\obj\Debug\MainWindow.baml
+C:\Users\Armin\Desktop\Igrica\Igrica\obj\Debug\Povezi scenu\Avatar\PoveziScenuAvatar.baml
+C:\Users\Armin\Desktop\Igrica\Igrica\obj\Debug\Povezi scenu\Avatar\PoveziScenuAvatarLahki.baml
+C:\Users\Armin\Desktop\Igrica\Igrica\obj\Debug\Povezi scenu\Sherlock\SherlockLahki.baml
+C:\Users\Armin\Desktop\Igrica\Igrica\obj\Debug\Povezi scenu\Sherlock\SherlockTeski.baml
+C:\Users\Armin\Desktop\Igrica\Igrica\obj\Debug\SpajalicaTeski.baml
+C:\Users\Armin\Desktop\Igrica\Igrica\obj\Debug\Povezi scenu\Titanik\PoveziScenuTitanicLahki.baml
+C:\Users\Armin\Desktop\Igrica\Igrica\obj\Debug\Povezi scenu\Titanik\PoveziScenuTitanicTEski.baml
+C:\Users\Armin\Desktop\Igrica\Igrica\obj\Debug\SpajalicaLahki.baml
+C:\Users\Armin\Desktop\Igrica\Igrica\obj\Debug\KoZnaZnaLahki.g.cs
+C:\Users\Armin\Desktop\Igrica\Igrica\obj\Debug\KoZnaZnaTeski.g.cs
+C:\Users\Armin\Desktop\Igrica\Igrica\obj\Debug\MainWindow.g.cs
+C:\Users\Armin\Desktop\Igrica\Igrica\obj\Debug\Povezi scenu\Avatar\PoveziScenuAvatar.g.cs
+C:\Users\Armin\Desktop\Igrica\Igrica\obj\Debug\Povezi scenu\Avatar\PoveziScenuAvatarLahki.g.cs
+C:\Users\Armin\Desktop\Igrica\Igrica\obj\Debug\Povezi scenu\Sherlock\SherlockLahki.g.cs
+C:\Users\Armin\Desktop\Igrica\Igrica\obj\Debug\Povezi scenu\Sherlock\SherlockTeski.g.cs
+C:\Users\Armin\Desktop\Igrica\Igrica\obj\Debug\SpajalicaTeski.g.cs
+C:\Users\Armin\Desktop\Igrica\Igrica\obj\Debug\Povezi scenu\Titanik\PoveziScenuTitanicLahki.g.cs
+C:\Users\Armin\Desktop\Igrica\Igrica\obj\Debug\Povezi scenu\Titanik\PoveziScenuTitanicTEski.g.cs
+C:\Users\Armin\Desktop\Igrica\Igrica\obj\Debug\SpajalicaLahki.g.cs
+C:\Users\Armin\Desktop\Igrica\Igrica\obj\Debug\App.g.cs
+C:\Users\Armin\Desktop\Igrica\Igrica\obj\Debug\Igrica_Content.g.cs
+C:\Users\Armin\Desktop\Igrica\Igrica\obj\Debug\Igrica_MarkupCompile.cache
+C:\Users\Armin\Desktop\Igrica\Igrica\obj\Debug\Igrica.g.resources
+C:\Users\Armin\Desktop\Igrica\Igrica\obj\Debug\Igrica.Properties.Resources.resources
+C:\Users\Armin\Desktop\Igrica\Igrica\obj\Debug\Igrica.csproj.GenerateResource.Cache
+C:\Users\Merisa Golić\Downloads\Igrica\Igrica\bin\Debug\Igrica.exe.config
+C:\Users\Merisa Golić\Downloads\Igrica\Igrica\obj\Debug\Igrica.exe
+C:\Users\Merisa Golić\Downloads\Igrica\Igrica\obj\Debug\Igrica.pdb
+C:\Users\Merisa Golić\Downloads\Igrica\Igrica\bin\Debug\Images\cinema.jpg
+C:\Users\Merisa Golić\Downloads\Igrica\Igrica\bin\Debug\Igrica.exe
+C:\Users\Merisa Golić\Downloads\Igrica\Igrica\bin\Debug\Igrica.pdb
+C:\Users\Merisa Golić\Downloads\Igrica\Igrica\obj\Debug\Igrica.csprojResolveAssemblyReference.cache
+C:\Users\Merisa Golić\Downloads\Igrica\Igrica\obj\Debug\KoZnaZnaLahki.baml
+C:\Users\Merisa Golić\Downloads\Igrica\Igrica\obj\Debug\KoZnaZnaTeski.baml
+C:\Users\Merisa Golić\Downloads\Igrica\Igrica\obj\Debug\MainWindow.baml
+C:\Users\Merisa Golić\Downloads\Igrica\Igrica\obj\Debug\Povezi scenu\Avatar\PoveziScenuAvatar.baml
+C:\Users\Merisa Golić\Downloads\Igrica\Igrica\obj\Debug\Povezi scenu\Avatar\PoveziScenuAvatarLahki.baml
+C:\Users\Merisa Golić\Downloads\Igrica\Igrica\obj\Debug\Povezi scenu\Sherlock\SherlockLahki.baml
+C:\Users\Merisa Golić\Downloads\Igrica\Igrica\obj\Debug\Povezi scenu\Sherlock\SherlockTeski.baml
+C:\Users\Merisa Golić\Downloads\Igrica\Igrica\obj\Debug\SpajalicaTeski.baml
+C:\Users\Merisa Golić\Downloads\Igrica\Igrica\obj\Debug\Povezi scenu\Titanik\PoveziScenuTitanicLahki.baml
+C:\Users\Merisa Golić\Downloads\Igrica\Igrica\obj\Debug\Povezi scenu\Titanik\PoveziScenuTitanicTEski.baml
+C:\Users\Merisa Golić\Downloads\Igrica\Igrica\obj\Debug\SpajalicaLahki.baml
+C:\Users\Merisa Golić\Downloads\Igrica\Igrica\obj\Debug\KoZnaZnaLahki.g.cs
+C:\Users\Merisa Golić\Downloads\Igrica\Igrica\obj\Debug\KoZnaZnaTeski.g.cs
+C:\Users\Merisa Golić\Downloads\Igrica\Igrica\obj\Debug\MainWindow.g.cs
+C:\Users\Merisa Golić\Downloads\Igrica\Igrica\obj\Debug\Povezi scenu\Avatar\PoveziScenuAvatar.g.cs
+C:\Users\Merisa Golić\Downloads\Igrica\Igrica\obj\Debug\Povezi scenu\Avatar\PoveziScenuAvatarLahki.g.cs
+C:\Users\Merisa Golić\Downloads\Igrica\Igrica\obj\Debug\Povezi scenu\Sherlock\SherlockLahki.g.cs
+C:\Users\Merisa Golić\Downloads\Igrica\Igrica\obj\Debug\Povezi scenu\Sherlock\SherlockTeski.g.cs
+C:\Users\Merisa Golić\Downloads\Igrica\Igrica\obj\Debug\SpajalicaTeski.g.cs
+C:\Users\Merisa Golić\Downloads\Igrica\Igrica\obj\Debug\Povezi scenu\Titanik\PoveziScenuTitanicLahki.g.cs
+C:\Users\Merisa Golić\Downloads\Igrica\Igrica\obj\Debug\Povezi scenu\Titanik\PoveziScenuTitanicTEski.g.cs
+C:\Users\Merisa Golić\Downloads\Igrica\Igrica\obj\Debug\SpajalicaLahki.g.cs
+C:\Users\Merisa Golić\Downloads\Igrica\Igrica\obj\Debug\App.g.cs
+C:\Users\Merisa Golić\Downloads\Igrica\Igrica\obj\Debug\Igrica_Content.g.cs
+C:\Users\Merisa Golić\Downloads\Igrica\Igrica\obj\Debug\Igrica_MarkupCompile.cache
+C:\Users\Merisa Golić\Downloads\Igrica\Igrica\obj\Debug\Igrica.g.resources
+C:\Users\Merisa Golić\Downloads\Igrica\Igrica\obj\Debug\Igrica.Properties.Resources.resources
+C:\Users\Merisa Golić\Downloads\Igrica\Igrica\obj\Debug\Igrica.csproj.GenerateResource.Cache
