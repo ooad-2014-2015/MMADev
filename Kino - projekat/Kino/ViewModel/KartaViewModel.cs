@@ -1,6 +1,7 @@
 ﻿using Kino.Model;
 using Kino.View;
 using System;
+using System.Windows;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Input;
 using System.ComponentModel;
 using ViewModel;
+using MySql.Data.MySqlClient;
 
 namespace Kino.ViewModel
 {
@@ -83,7 +85,26 @@ namespace Kino.ViewModel
         public void kupiKartu(object parametar)
         { }
         public void registrujKlijenta(object parametar)
-        { }
+        {
+            string username = "root";
+            string password = "";
+            string db = "Kino";
+            string connectionString = "server=localhost;user=" + username + ";pwd=" + password + ";database" + db;
+            try
+            {
+                MySqlConnection konekcija = new MySqlConnection(connectionString);
+                konekcija.Open();
+
+                MySqlCommand insertKlijenta = new MySqlCommand("insert into Klijent(ImePrezime, BrojLicneKarte, BrojKinoKartice,BrojStudentKinoKartice"
+                    + "values('" + klijent.ImePrezime + "','" + klijent.BrojLicneKarte + "','" + klijent.BrojKinoKartice + "','" + klijent.BrojStudentKinoKartice + "')", konekcija);
+                insertKlijenta.ExecuteNonQuery();
+                konekcija.Close();
+            }
+            catch
+            {
+                MessageBox.Show("Unos klijenta u bazu podataka nije uspio!", "Povezivanje sa bazom");
+            }
+        }
 
         public event PropertyChangedEventHandler PropertyChanged;
         protected void OnPropertyChanged(string propertyName)
