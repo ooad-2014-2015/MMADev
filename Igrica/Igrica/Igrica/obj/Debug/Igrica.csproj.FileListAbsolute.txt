@@ -197,3 +197,6 @@ C:\Users\Merisa Golić\Downloads\Igrica\Igrica\obj\Debug\Igrica_MarkupCompile.ca
 C:\Users\Merisa Golić\Downloads\Igrica\Igrica\obj\Debug\Igrica.g.resources
 C:\Users\Merisa Golić\Downloads\Igrica\Igrica\obj\Debug\Igrica.Properties.Resources.resources
 C:\Users\Merisa Golić\Downloads\Igrica\Igrica\obj\Debug\Igrica.csproj.GenerateResource.Cache
+C:\Program Files\Git\MMADev\Igrica\Igrica\Igrica\bin\Debug\Igrica.exe.config
+C:\Program Files\Git\MMADev\Igrica\Igrica\Igrica\obj\Debug\Igrica.exe
+C:\Program Files\Git\MMADev\Igrica\Igrica\Igrica\obj\Debug\Igrica.pdb
