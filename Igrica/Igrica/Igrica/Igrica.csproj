@@ -100,7 +100,6 @@
     <Compile Include="Klase\DrugaIgra.cs" />
     <Compile Include="Klase\DrugaLahki.cs" />
     <Compile Include="Klase\DrugaTeski.cs" />
-    <Compile Include="Klase\GameFacade.cs" />
     <Compile Include="Klase\Igra.cs" />
     <Compile Include="Klase\Interfejsi\IStrategy2.cs" />
     <Compile Include="Klase\Interfejsi\IStrategy1.cs" />

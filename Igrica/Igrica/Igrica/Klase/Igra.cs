@@ -8,14 +8,10 @@ namespace Igrica
 {
     public abstract class Igra
     {
-        void igraj()
-        { }
 
         void izaberiNivo(bool nivoLahki)
         { }
 
-        void nazad()
-        { }
      
     }
 }
