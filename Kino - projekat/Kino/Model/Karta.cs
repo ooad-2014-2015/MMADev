@@ -14,11 +14,11 @@ namespace Kino.Model
         public int BrojSjedista { get; set;}
         public DateTime Termin {get; set;}
         public double Cijena { get; set; }
-        public string RezervacijskiBroj { get; set; }
+        public int RezervacijskiBroj { get; set; }
 
         public Karta()
         { }
-        public Karta(Film film, int sala, int brSjedista, DateTime termin, double cijena, string rezBr = "")
+        public Karta(Film film, int sala, int brSjedista, DateTime termin, double cijena, int rezBr = 0)
         {
             Film = film;
             Sala = sala;

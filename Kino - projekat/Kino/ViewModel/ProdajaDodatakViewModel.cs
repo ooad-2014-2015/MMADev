@@ -10,7 +10,7 @@ using ViewModel;
 
 namespace Kino.ViewModel
 {
-    public class ProdajaDodatakViewModel
+    public class ProdajaDodatakViewModel 
     {
         public KartaViewModel Parent { get; set; }
         public Action CloseAction { get; set; }
@@ -36,7 +36,10 @@ namespace Kino.ViewModel
 
         //ovdje implementirati funkcionalnosti
         public void kupiKokice(object parametar)
-        { }
+        {
+            
+ 
+        }
         public void nabaviKokice(object parametar)
         { }
         public void kupiPice(object parametar)

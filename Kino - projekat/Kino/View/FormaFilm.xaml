@@ -1,8 +1,942 @@
 ﻿<Window x:Class="Kino.View.FormaFilm"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="FormaFilm" Height="300" Width="300">
+        Title="Film" Height="623.061" Width="1176.12" ResizeMode="NoResize">
     <Grid>
-        
+        <TabControl HorizontalAlignment="Left" Height="595" VerticalAlignment="Top" Width="1170" Margin="0,-1,0,0">
+            <TabItem Header="SALA 1" Height="39" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="-2,0,0,0" Width="90" FontSize="14">
+                <Grid Background="#FFE5E5E5">
+                    <Image Source="/Kino;component/raspored.jpg" Stretch="Fill" Height="489" VerticalAlignment="Top" Margin="-10,0,0,0"/>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="163,92,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="315,92,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="473,92,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="624,92,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="775,92,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="924,92,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="1061,92,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="163,159,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="315,159,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="473,159,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="624,159,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="775,159,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="924,159,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="1061,159,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="164,227,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="316,227,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="474,227,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="625,227,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="776,227,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="925,227,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="1062,227,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="163,295,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="315,295,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="473,295,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="624,295,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="775,295,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="924,295,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="1061,295,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="163,367,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="315,367,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="473,367,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="624,366,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="775,367,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="924,367,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="1061,367,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="164,433,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="316,433,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="474,433,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="625,432,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="776,433,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="925,433,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="1062,433,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <Canvas HorizontalAlignment="Left" Height="553" VerticalAlignment="Top" Width="1158"/>
+                    <Button Content="Spremi raspored" HorizontalAlignment="Left" VerticalAlignment="Top" Width="174" Margin="976,494,0,0"/>
+
+                </Grid>
+            </TabItem>
+            <TabItem Header="SALA 2" Height="39" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="-2,0,0,0" Width="90" FontSize="14">
+                <Grid Background="#FFE5E5E5">
+                    <Image Source="/Kino;component/raspored.jpg" Stretch="Fill" Height="489" VerticalAlignment="Top" Margin="-10,0,0,0"/>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="163,92,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="315,92,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="473,92,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="624,92,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="775,92,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="924,92,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="1061,92,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="163,159,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="315,159,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="473,159,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="624,159,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="775,159,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="924,159,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="1061,159,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="164,227,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="316,227,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="474,227,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="625,227,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="776,227,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="925,227,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="1062,227,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="163,295,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="315,295,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="473,295,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="624,295,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="775,295,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="924,295,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="1061,295,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="163,367,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="315,367,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="473,367,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="624,366,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="775,367,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="924,367,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="1061,367,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="164,433,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="316,433,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="474,433,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="625,432,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="776,433,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="925,433,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="1062,433,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <Canvas HorizontalAlignment="Left" Height="553" VerticalAlignment="Top" Width="1158"/>
+                    <Button Content="Spremi raspored" HorizontalAlignment="Left" VerticalAlignment="Top" Width="174" Margin="976,494,0,0"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="SALA 3" Height="39" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="-2,0,0,0" Width="90" FontSize="14">
+                <Grid Background="#FFE5E5E5">
+                    <Image Source="/Kino;component/raspored.jpg" Stretch="Fill" Height="489" VerticalAlignment="Top" Margin="-10,0,0,0"/>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="163,92,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="315,92,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="473,92,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="624,92,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="775,92,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="924,92,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="1061,92,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="163,159,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="315,159,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="473,159,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="624,159,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="775,159,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="924,159,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="1061,159,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="164,227,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="316,227,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="474,227,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="625,227,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="776,227,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="925,227,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="1062,227,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="163,295,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="315,295,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="473,295,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="624,295,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="775,295,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="924,295,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="1061,295,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="163,367,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="315,367,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="473,367,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="624,366,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="775,367,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="924,367,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="1061,367,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="164,433,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="316,433,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="474,433,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="625,432,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="776,433,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="925,433,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <ListView HorizontalAlignment="Left" Height="40" Margin="1062,433,0,0" VerticalAlignment="Top" Width="96">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <Canvas HorizontalAlignment="Left" Height="553" VerticalAlignment="Top" Width="1158"/>
+                    <Button Content="Spremi raspored" HorizontalAlignment="Left" VerticalAlignment="Top" Width="174" Margin="976,494,0,0"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Dodaj film" Height="39" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="-2,0,0,0" Width="90" FontSize="14">
+                <Grid Background="#FFE5E5E5">
+                    <Label Content="Naziv:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="29,31,0,0"/>
+                    <Label Content="Glumac 1:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="29,65,0,0"/>
+                    <Label Content="Glumac 2:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="29,99,0,0"/>
+                    <Label Content="Režiser:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="29,133,0,0"/>
+                    <Label Content="Žanr:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="29,167,0,0"/>
+                    <Label Content="Godina izdavanja:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="29,201,0,0"/>
+                    <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="162,203,0,0"/>
+                    <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="162,37,0,0"/>
+                    <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="162,71,0,0"/>
+                    <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="162,105,0,0"/>
+                    <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="162,139,0,0"/>
+                    <ListBox HorizontalAlignment="Left" Height="29" VerticalAlignment="Top" Width="120" Margin="162,167,0,0"/>
+                    <Button Content="Dodaj" HorizontalAlignment="Left" VerticalAlignment="Top" Width="118" Margin="166,252,0,0" Height="39"/>
+                    <Image Margin="604,0,0,-153" Source="/Kino;component/depositphotos_9006605-Colorful-film-strip.jpg" Stretch="Fill"/>
+                    <ListView HorizontalAlignment="Left" Height="437" VerticalAlignment="Top" Width="212" Margin="372,65,0,0">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <Label Content="Filmovi koje posjedujete:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="372,31,0,0"/>
+
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+
     </Grid>
 </Window>

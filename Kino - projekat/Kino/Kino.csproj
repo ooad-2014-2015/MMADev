@@ -34,7 +34,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="MySql.Data, Version=6.9.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
@@ -60,6 +59,7 @@
     <Compile Include="ViewModel\RelayCommand.cs" />
     <Compile Include="View\FormaDodaci.xaml.cs">
       <DependentUpon>FormaDodaci.xaml</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Compile>
     <Compile Include="View\FormaFilm.xaml.cs">
       <DependentUpon>FormaFilm.xaml</DependentUpon>
@@ -82,6 +82,7 @@
     <Page Include="View\FormaDodaci.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Page>
     <Page Include="View\FormaFilm.xaml">
       <SubType>Designer</SubType>
@@ -129,7 +130,51 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="cv1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="cv.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bw.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="cola1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="col.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="cappy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Orange-vs-Orange-Juice.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="popcorn-clip-art-9ipAre5iE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="mr-money-18976988.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Kino_logo_NEW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="raspored.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="film2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="depositphotos_9006605-Colorful-film-strip.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="movie_ticket.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="keep-clients-happy-3-257x300.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

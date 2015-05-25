@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Kino.View;
 
 namespace Kino
 {
@@ -23,6 +24,32 @@ namespace Kino
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e){}
+        private void Button_Click(object sender, RoutedEventArgs e){}
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            if (PasswordBox.Password == "dodaci")
+            {
+                FormaDodaci fd = new FormaDodaci();
+                fd.Show();
+                this.Close();
+            }
+            else if (PasswordBox.Password=="film")
+            {
+                FormaFilm ff = new FormaFilm();
+                ff.Show();
+                this.Close();
+            }
+            else if (PasswordBox.Password=="karta")
+            {
+                FormaKarta fk = new FormaKarta();
+                fk.Show();
+                this.Close();
+            }
+        
         }
     }
 }

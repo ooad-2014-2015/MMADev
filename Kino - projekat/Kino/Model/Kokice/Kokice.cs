@@ -13,7 +13,15 @@ namespace Kino.Model.Kokice
         public int VelikeCijena { get; set; }
         public int Kolicina { get; set; }
 
-        public Kokice()
-        { }
+        public Kokice(int MaleCijena, int SrednjeCijena, int VelikeCijena, int Kolicina)
+        {
+            this.MaleCijena = MaleCijena;
+            this.SrednjeCijena = SrednjeCijena;
+            this.VelikeCijena = VelikeCijena;
+            this.Kolicina = Kolicina;
+        }
+
+        public Kokice() { }
+
     }
 }

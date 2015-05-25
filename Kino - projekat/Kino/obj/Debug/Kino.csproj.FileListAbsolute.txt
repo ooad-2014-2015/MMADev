@@ -17,22 +17,23 @@ C:\Users\Merisa Golić\Documents\4.sem\OOAD\Kino\Kino\obj\Debug\View\FormaKarta.
 C:\Users\Merisa Golić\Documents\4.sem\OOAD\Kino\Kino\obj\Debug\View\FormaDodaci.g.cs
 C:\Users\Merisa Golić\Documents\4.sem\OOAD\Kino\Kino\obj\Debug\View\FormaFilm.g.cs
 C:\Users\Merisa Golić\Documents\4.sem\OOAD\Kino\Kino\obj\Debug\View\FormaKarta.g.cs
-C:\Program Files\Git\MMADev\Kino - projekat\Kino\bin\Debug\Kino.exe.config
-C:\Program Files\Git\MMADev\Kino - projekat\Kino\obj\Debug\Kino.exe
-C:\Program Files\Git\MMADev\Kino - projekat\Kino\obj\Debug\Kino.pdb
-C:\Program Files\Git\MMADev\Kino - projekat\Kino\bin\Debug\Kino.exe
-C:\Program Files\Git\MMADev\Kino - projekat\Kino\bin\Debug\Kino.pdb
-C:\Program Files\Git\MMADev\Kino - projekat\Kino\obj\Debug\Kino.csprojResolveAssemblyReference.cache
-C:\Program Files\Git\MMADev\Kino - projekat\Kino\obj\Debug\MainWindow.baml
-C:\Program Files\Git\MMADev\Kino - projekat\Kino\obj\Debug\View\FormaDodaci.baml
-C:\Program Files\Git\MMADev\Kino - projekat\Kino\obj\Debug\View\FormaFilm.baml
-C:\Program Files\Git\MMADev\Kino - projekat\Kino\obj\Debug\View\FormaKarta.baml
-C:\Program Files\Git\MMADev\Kino - projekat\Kino\obj\Debug\MainWindow.g.cs
-C:\Program Files\Git\MMADev\Kino - projekat\Kino\obj\Debug\View\FormaDodaci.g.cs
-C:\Program Files\Git\MMADev\Kino - projekat\Kino\obj\Debug\View\FormaFilm.g.cs
-C:\Program Files\Git\MMADev\Kino - projekat\Kino\obj\Debug\View\FormaKarta.g.cs
-C:\Program Files\Git\MMADev\Kino - projekat\Kino\obj\Debug\App.g.cs
-C:\Program Files\Git\MMADev\Kino - projekat\Kino\obj\Debug\Kino_MarkupCompile.cache
-C:\Program Files\Git\MMADev\Kino - projekat\Kino\obj\Debug\Kino.g.resources
-C:\Program Files\Git\MMADev\Kino - projekat\Kino\obj\Debug\Kino.Properties.Resources.resources
-C:\Program Files\Git\MMADev\Kino - projekat\Kino\obj\Debug\Kino.csproj.GenerateResource.Cache
+C:\Users\Merima\Desktop\Kino - projekat\Kino\bin\Debug\Kino.exe.config
+C:\Users\Merima\Desktop\Kino - projekat\Kino\obj\Debug\Kino.exe
+C:\Users\Merima\Desktop\Kino - projekat\Kino\obj\Debug\Kino.pdb
+C:\Users\Merima\Desktop\Kino - projekat\Kino\bin\Debug\View\FormaDodaci.xaml.cs
+C:\Users\Merima\Desktop\Kino - projekat\Kino\bin\Debug\Kino.exe
+C:\Users\Merima\Desktop\Kino - projekat\Kino\bin\Debug\Kino.pdb
+C:\Users\Merima\Desktop\Kino - projekat\Kino\obj\Debug\Kino.csprojResolveAssemblyReference.cache
+C:\Users\Merima\Desktop\Kino - projekat\Kino\obj\Debug\MainWindow.baml
+C:\Users\Merima\Desktop\Kino - projekat\Kino\obj\Debug\View\FormaDodaci.baml
+C:\Users\Merima\Desktop\Kino - projekat\Kino\obj\Debug\View\FormaFilm.baml
+C:\Users\Merima\Desktop\Kino - projekat\Kino\obj\Debug\View\FormaKarta.baml
+C:\Users\Merima\Desktop\Kino - projekat\Kino\obj\Debug\MainWindow.g.cs
+C:\Users\Merima\Desktop\Kino - projekat\Kino\obj\Debug\View\FormaDodaci.g.cs
+C:\Users\Merima\Desktop\Kino - projekat\Kino\obj\Debug\View\FormaFilm.g.cs
+C:\Users\Merima\Desktop\Kino - projekat\Kino\obj\Debug\View\FormaKarta.g.cs
+C:\Users\Merima\Desktop\Kino - projekat\Kino\obj\Debug\App.g.cs
+C:\Users\Merima\Desktop\Kino - projekat\Kino\obj\Debug\Kino_MarkupCompile.cache
+C:\Users\Merima\Desktop\Kino - projekat\Kino\obj\Debug\Kino.g.resources
+C:\Users\Merima\Desktop\Kino - projekat\Kino\obj\Debug\Kino.Properties.Resources.resources
+C:\Users\Merima\Desktop\Kino - projekat\Kino\obj\Debug\Kino.csproj.GenerateResource.Cache

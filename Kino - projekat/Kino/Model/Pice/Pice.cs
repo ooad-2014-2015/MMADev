@@ -12,9 +12,13 @@ namespace Kino.Model.Pice
         public double FlasaCijena { get; set; }
         public int Kolicina { get; set; }
 
-        public Pice()
+        public Pice(double CasaCijena, double FlasaCijena, int Kolicina)
         {
- 
+            this.CasaCijena = CasaCijena;
+            this.FlasaCijena = FlasaCijena;
+            this.Kolicina = Kolicina; 
         }
+
+        public Pice() { }
     }
 }
