@@ -924,7 +924,7 @@
                     <ListBox HorizontalAlignment="Left" Height="29" VerticalAlignment="Top" Width="120" Margin="162,167,0,0"/>
                     <Button Content="Dodaj" HorizontalAlignment="Left" VerticalAlignment="Top" Width="118" Margin="166,252,0,0" Height="39"/>
                     <Image Margin="604,0,0,-153" Source="/Kino;component/depositphotos_9006605-Colorful-film-strip.jpg" Stretch="Fill"/>
-                    <ListView HorizontalAlignment="Left" Height="437" VerticalAlignment="Top" Width="212" Margin="372,65,0,0">
+                    <ListView HorizontalAlignment="Left" Height="437" VerticalAlignment="Top" Width="212" Margin="372,66,0,0">
                         <ListView.View>
                             <GridView>
                                 <GridViewColumn/>

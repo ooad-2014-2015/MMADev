@@ -20,9 +20,9 @@
                     <TextBox HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="255,219,0,0" FontSize="14"/>
                     <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120" Margin="580,203,0,0" FontSize="16" TextChanged="TextBox_TextChanged_1"/>
                     <Label Content="Ukupno (KM):" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="467,200,0,0" FontSize="16"/>
-                    <Button Content="Naplati" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="580,247,0,0" Click="Button_Click" FontSize="16"/>
+                    <Button Content="Naplati" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="580,257,0,0" Click="Button_Click" FontSize="16"/>
                     <Button Content="Dodaj na račun" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="255,258,0,0" FontSize="14"/>
-                    <Image Margin="391,-15,10,140" Source="/Kino;component/movie_ticket.jpg" Opacity="90" Stretch="None">
+                    <Image Margin="401,-15,0,140" Source="/Kino;component/movie_ticket.jpg" Opacity="90" Stretch="None">
                         <Image.Effect>
                             <BlurEffect RenderingBias="Quality" Radius="4"/>
                         </Image.Effect>
@@ -62,7 +62,7 @@
                     <Label Content="Količina:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="459,126,0,0"/>
                     <Label Content="REZERVACIJA" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="376,6,0,0" FontWeight="Bold"/>
                     <Label Content="REGISTRACIJA" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,4,0,0" FontWeight="Bold"/>
-                    <Button Content="Rezerviši" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="604,165,0,0"/>
+                    <Button Content="Rezerviši" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="604,168,0,0"/>
                     <Image Source="/Kino;component/keep-clients-happy-3-257x300.png" Stretch="Fill" Margin="601,225,-8,9" RenderTransformOrigin="0.5,0.5" OpacityMask="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}">
                         <Image.RenderTransform>
                             <TransformGroup>
