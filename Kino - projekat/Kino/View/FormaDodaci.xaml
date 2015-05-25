@@ -57,7 +57,7 @@
                         </Label.Background>
                     </Label>
                     <TextBox Height="29" Margin="753,150,39,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
-                    <Button Content="Naplati" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="753,190,0,0" FontFamily="Segoe UI" FontWeight="Normal" Height="27"/>
+                    <Button Content="Naplati" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="753,193,0,0" FontFamily="Segoe UI" FontWeight="Normal" Height="27"/>
                     <Image HorizontalAlignment="Left" Height="80" VerticalAlignment="Top" Width="98" Margin="16,46,0,0">
                         <Image.OpacityMask>
                             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
