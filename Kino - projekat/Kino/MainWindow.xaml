@@ -7,7 +7,7 @@
         <Label Content="Password" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="211,39,0,0" Height="27" Width="68" FontSize="14"/>
         <Image Margin="10,107,332,0" Source="Kino_logo_NEW.png" Stretch="Fill"/>
         <Button Content="OK" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="660,152,0,0" Click="Button_Click"/>
-        <Button Content="OK" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="460,91,0,0" Click="Button_Click_1"/>
+        <Button Content="OK" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="460,91,0,0" Click="Button_Click_1" IsDefault="True"/>
         <PasswordBox x:Name="PasswordBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="294,43,0,0" Height="23" Width="241"/>
 
     </Grid>

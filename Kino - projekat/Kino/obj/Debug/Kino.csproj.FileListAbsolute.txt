@@ -37,3 +37,43 @@ C:\Users\Merima\Desktop\Kino - projekat\Kino\obj\Debug\Kino_MarkupCompile.cache
 C:\Users\Merima\Desktop\Kino - projekat\Kino\obj\Debug\Kino.g.resources
 C:\Users\Merima\Desktop\Kino - projekat\Kino\obj\Debug\Kino.Properties.Resources.resources
 C:\Users\Merima\Desktop\Kino - projekat\Kino\obj\Debug\Kino.csproj.GenerateResource.Cache
+C:\Users\Merisa Golić\Desktop\Kino - projekat\Kino\bin\Debug\Kino.exe.config
+C:\Users\Merisa Golić\Desktop\Kino - projekat\Kino\obj\Debug\Kino.exe
+C:\Users\Merisa Golić\Desktop\Kino - projekat\Kino\obj\Debug\Kino.pdb
+C:\Users\Merisa Golić\Desktop\Kino - projekat\Kino\bin\Debug\View\FormaDodaci.xaml.cs
+C:\Users\Merisa Golić\Desktop\Kino - projekat\Kino\bin\Debug\Kino.exe
+C:\Users\Merisa Golić\Desktop\Kino - projekat\Kino\bin\Debug\Kino.pdb
+C:\Users\Merisa Golić\Desktop\Kino - projekat\Kino\obj\Debug\Kino.csprojResolveAssemblyReference.cache
+C:\Users\Merisa Golić\Desktop\Kino - projekat\Kino\obj\Debug\MainWindow.baml
+C:\Users\Merisa Golić\Desktop\Kino - projekat\Kino\obj\Debug\View\FormaDodaci.baml
+C:\Users\Merisa Golić\Desktop\Kino - projekat\Kino\obj\Debug\View\FormaFilm.baml
+C:\Users\Merisa Golić\Desktop\Kino - projekat\Kino\obj\Debug\View\FormaKarta.baml
+C:\Users\Merisa Golić\Desktop\Kino - projekat\Kino\obj\Debug\MainWindow.g.cs
+C:\Users\Merisa Golić\Desktop\Kino - projekat\Kino\obj\Debug\View\FormaDodaci.g.cs
+C:\Users\Merisa Golić\Desktop\Kino - projekat\Kino\obj\Debug\View\FormaFilm.g.cs
+C:\Users\Merisa Golić\Desktop\Kino - projekat\Kino\obj\Debug\View\FormaKarta.g.cs
+C:\Users\Merisa Golić\Desktop\Kino - projekat\Kino\obj\Debug\App.g.cs
+C:\Users\Merisa Golić\Desktop\Kino - projekat\Kino\obj\Debug\Kino_MarkupCompile.cache
+C:\Users\Merisa Golić\Desktop\Kino - projekat\Kino\obj\Debug\Kino.g.resources
+C:\Users\Merisa Golić\Desktop\Kino - projekat\Kino\obj\Debug\Kino.Properties.Resources.resources
+C:\Users\Merisa Golić\Desktop\Kino - projekat\Kino\obj\Debug\Kino.csproj.GenerateResource.Cache
+C:\Users\Armin\Desktop\Kino - projekat\Kino\bin\Debug\Kino.exe.config
+C:\Users\Armin\Desktop\Kino - projekat\Kino\obj\Debug\Kino.exe
+C:\Users\Armin\Desktop\Kino - projekat\Kino\obj\Debug\Kino.pdb
+C:\Users\Armin\Desktop\Kino - projekat\Kino\obj\Debug\Kino.csprojResolveAssemblyReference.cache
+C:\Users\Armin\Desktop\Kino - projekat\Kino\obj\Debug\MainWindow.baml
+C:\Users\Armin\Desktop\Kino - projekat\Kino\obj\Debug\View\FormaDodaci.baml
+C:\Users\Armin\Desktop\Kino - projekat\Kino\obj\Debug\View\FormaFilm.baml
+C:\Users\Armin\Desktop\Kino - projekat\Kino\obj\Debug\View\FormaKarta.baml
+C:\Users\Armin\Desktop\Kino - projekat\Kino\obj\Debug\MainWindow.g.cs
+C:\Users\Armin\Desktop\Kino - projekat\Kino\obj\Debug\View\FormaDodaci.g.cs
+C:\Users\Armin\Desktop\Kino - projekat\Kino\obj\Debug\View\FormaFilm.g.cs
+C:\Users\Armin\Desktop\Kino - projekat\Kino\obj\Debug\View\FormaKarta.g.cs
+C:\Users\Armin\Desktop\Kino - projekat\Kino\obj\Debug\App.g.cs
+C:\Users\Armin\Desktop\Kino - projekat\Kino\obj\Debug\Kino_MarkupCompile.cache
+C:\Users\Armin\Desktop\Kino - projekat\Kino\obj\Debug\Kino.g.resources
+C:\Users\Armin\Desktop\Kino - projekat\Kino\obj\Debug\Kino.Properties.Resources.resources
+C:\Users\Armin\Desktop\Kino - projekat\Kino\obj\Debug\Kino.csproj.GenerateResource.Cache
+C:\Users\Armin\Desktop\Kino - projekat\Kino\bin\Debug\View\FormaDodaci.xaml.cs
+C:\Users\Armin\Desktop\Kino - projekat\Kino\bin\Debug\Kino.exe
+C:\Users\Armin\Desktop\Kino - projekat\Kino\bin\Debug\Kino.pdb

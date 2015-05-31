@@ -10,7 +10,7 @@
             <ColumnDefinition Width="161*"/>
         </Grid.ColumnDefinitions>
         <TabControl Grid.ColumnSpan="4" HorizontalAlignment="Left" Height="522" VerticalAlignment="Top" Width="899" Margin="0,-9,-9,-20">
-            <TabItem Header="Prodaja" FontFamily="Segoe UI" FontWeight="Normal">
+            <TabItem Header="Prodaja" FontFamily="Segoe UI" FontWeight="Normal" Height="27" VerticalAlignment="Top">
                 <Grid Background="#FFE5E5E5" Margin="-9,-6,-4,-4">
                     <Image Margin="455,46,347,349" Source="/Kino;component/cv.jpg" Stretch="Fill" Width="100" Height="100"/>
                     <Label Content="Piće" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="530,10,0,0" FontFamily="Segoe UI Semibold" FontWeight="Bold" Foreground="#FF0A3068" Height="31" Width="40"/>

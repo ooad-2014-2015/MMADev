@@ -34,18 +34,23 @@ namespace Kino
             if (PasswordBox.Password == "dodaci")
             {
                 FormaDodaci fd = new FormaDodaci();
+
+                //fd.DataContext = new ViewModel.ProdajaDodatakViewModel();
                 fd.Show();
                 this.Close();
             }
             else if (PasswordBox.Password=="film")
             {
                 FormaFilm ff = new FormaFilm();
+            
                 ff.Show();
                 this.Close();
             }
             else if (PasswordBox.Password=="karta")
             {
                 FormaKarta fk = new FormaKarta();
+
+              //  fk.DataContext = new ViewModel.KartaViewModel();
                 fk.Show();
                 this.Close();
             }
