@@ -26,20 +26,23 @@
                     </Image>
                     <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" SelectedValue="{Binding Film}" HorizontalAlignment="Left" Height="23" Margin="255,78,0,0" VerticalAlignment="Top" Width="120"/>
                     <Button Content="Učitaj" HorizontalAlignment="Left" Height="24" Margin="121,221,0,0" VerticalAlignment="Top" Width="113" Command="{Binding Path=Ucitaj}"/>
+                    <TextBox HorizontalAlignment="Left" Height="24" Margin="259,265,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="{Binding Indeks, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                    <Label Content="Broj indeksa" HorizontalAlignment="Left" Height="30" Margin="121,263,0,0" VerticalAlignment="Top" Width="113" FontSize="14"/>
+                    <Button Content="Obračunaj popust" HorizontalAlignment="Left" Height="25" Margin="580,265,0,0" VerticalAlignment="Top" Width="120" Command="{Binding Path=Popust}"/>
                 </Grid>
             </TabItem>
             <TabItem Header="Korisnik" Height="26" VerticalAlignment="Bottom">
                 <Grid Background="#FFE5E5E5" Margin="-3,-2,-2,1">
                     <Grid HorizontalAlignment="Left" Height="317" VerticalAlignment="Top" Width="688" Margin="0,0,-588,-291"/>
                     <Label Content="Ime i prezime" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="66,40,0,0"/>
-                    <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="176,42,0,0"/>
+                    <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="176,42,0,0" Text="{Binding Klijent.ImePrezime, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True, NotifyOnValidationError=True}"/>
                     <Label Content="Broj LK" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="66,68,0,0"/>
-                    <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="176,70,0,0"/>
+                    <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="176,70,0,0" Text="{Binding Klijent.BrojLicneKarte, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True, NotifyOnValidationError=True}"/>
                     <Label Content="Br Kino kartice" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="66,96,0,0"/>
-                    <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="176,98,0,0"/>
+                    <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="176,98,0,0" Text="{Binding Klijent.BrojKinoKartice, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
                     <Label Content="Br Student KK" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="66,124,0,0"/>
-                    <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="176,126,0,0"/>
-                    <Button Content="Registruj" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="224,165,0,0"/>
+                    <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="176,126,0,0" Text="{Binding Klijent.BrojStudentKinoKartice, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                    <Button Content="Registruj" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="224,165,0,0" Command="{Binding Path=RegistrujKlijenta}"/>
                     <Separator HorizontalAlignment="Left" Height="100" Margin="187,122,0,0" VerticalAlignment="Top" Width="343" RenderTransformOrigin="0.5,0.5">
                         <Separator.RenderTransform>
                             <TransformGroup>
@@ -50,15 +53,13 @@
                             </TransformGroup>
                         </Separator.RenderTransform>
                     </Separator>
-                    <ListBox HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="140" Margin="539,32,0,0"/>
-                    <ListBox HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="140" Margin="539,80,0,0"/>
-                    <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="140" Margin="539,129,0,0" />
-                    <Label Content="Korisnik:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="459,40,0,0"/>
-                    <Label Content="Film:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="459,88,0,0"/>
-                    <Label Content="Količina:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="459,126,0,0"/>
+                    <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="{Binding BrojSjed, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="140" Margin="539,129,0,0" />
+                    <Label Content="Korisnik" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="459,41,0,0"/>
+                    <Label Content="Film" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="459,86,0,0"/>
+                    <Label Content="Broj sjedišta" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="459,126,0,0"/>
                     <Label Content="REZERVACIJA" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="376,6,0,0" FontWeight="Bold"/>
                     <Label Content="REGISTRACIJA" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,4,0,0" FontWeight="Bold"/>
-                    <Button Content="Rezerviši" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="604,168,0,0"/>
+                    <Button Content="Rezerviši" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="604,168,0,0" Command="{Binding Path=RezervisiKartu}"/>
                     <Image Source="/Kino;component/keep-clients-happy-3-257x300.png" Stretch="Fill" Margin="601,225,-8,9" RenderTransformOrigin="0.5,0.5" OpacityMask="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}">
                         <Image.RenderTransform>
                             <TransformGroup>
@@ -69,6 +70,8 @@
                             </TransformGroup>
                         </Image.RenderTransform>
                     </Image>
+                    <ComboBox ItemsSource="{Binding Klijenti, Mode=OneWay}" SelectedValue="{Binding KlijentRez}" HorizontalAlignment="Left" Height="23" Margin="539,43,0,0" VerticalAlignment="Top" Width="140"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" SelectedValue="{Binding FilmRez}" HorizontalAlignment="Left" Height="23" Margin="539,86,0,0" VerticalAlignment="Top" Width="140"/>
                 </Grid>
             </TabItem>
         </TabControl>

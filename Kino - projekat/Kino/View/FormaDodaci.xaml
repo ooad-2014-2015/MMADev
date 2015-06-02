@@ -12,28 +12,32 @@
         <TabControl Grid.ColumnSpan="4" HorizontalAlignment="Left" Height="522" VerticalAlignment="Top" Width="899" Margin="0,-9,-9,-20">
             <TabItem Header="Prodaja" FontFamily="Segoe UI" FontWeight="Normal" Height="27" VerticalAlignment="Top">
                 <Grid Background="#FFE5E5E5" Margin="-9,-6,-4,-4">
-                    <Image Margin="455,46,347,349" Source="/Kino;component/cv.jpg" Stretch="Fill" Width="100" Height="100"/>
-                    <Label Content="Piće" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="530,10,0,0" FontFamily="Segoe UI Semibold" FontWeight="Bold" Foreground="#FF0A3068" Height="31" Width="40"/>
-                    <Label Content="Piće" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="530,10,0,0" FontFamily="Segoe UI Semibold" FontWeight="Bold" Foreground="#FF0A3068" Height="31" Width="40"/>
-                    <Label Content="Slane kokice" VerticalAlignment="Top" Margin="78,10,550,0" FontFamily="Segoe UI Semibold" FontWeight="Bold" Foreground="#FF0A3068" Height="31"/>
-                    <Image Margin="592,41,200,343" Source="/Kino;component/bw.jpg" Stretch="Fill" Width="100" Height="100"/>
-                    <TextBox HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="43" Margin="592,150,0,0" FontSize="14" FontWeight="Normal" FontFamily="Segoe Marker"/>
-                    <Image Margin="450,193,342,191" Source="/Kino;component/cola1.jpg" Stretch="Fill" Width="100" Height="100"/>
-                    <TextBox HorizontalAlignment="Left" Height="22" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="43" Margin="451,304,0,0" FontSize="14" FontWeight="Normal" FontFamily="Segoe Marker" RenderTransformOrigin="0.628,1"/>
-                    <Image Margin="597,198,205,197" Source="/Kino;component/col.jpeg" Stretch="Fill" Width="100" Height="100"/>
-                    <TextBox HorizontalAlignment="Left" Height="22" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="43" Margin="592,304,0,0" FontSize="14" FontWeight="Normal" FontFamily="Segoe Marker"/>
-                    <Image Margin="597,340,205,0" Source="/Kino;component/cappy.jpg" Stretch="Fill" Height="100" VerticalAlignment="Top" Width="100"/>
-                    <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="43" Margin="452,445,0,0" FontSize="14" FontWeight="Normal" FontFamily="Segoe Marker"/>
-                    <Image Margin="455,340,347,55" Source="/Kino;component/Orange-vs-Orange-Juice.jpg" Stretch="Fill" Width="100" Height="100"/>
-                    <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="43" Margin="593,445,0,0" FontSize="14" FontWeight="Normal" FontFamily="Segoe Marker"/>
-                    <Label Content="1 KM/kom" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Sagoe Marker" FontWeight="Normal" FontSize="12" Margin="636,150,0,0" Height="24" Width="66"/>
-                    <Label Content="1.5 KM/kom" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Sagoe Marker" FontWeight="Normal" FontSize="12" Margin="495,304,0,0" Height="22" Width="75"/>
-                    <Label Content="2.5 KM/kom" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Sagoe Marker" FontWeight="Normal" FontSize="12" Margin="635,304,0,0" Height="22" Width="75"/>
-                    <Label Content="2 KM/kom" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Sagoe Marker" FontWeight="Normal" FontSize="12" Margin="496,445,0,0" Height="23" Width="75"/>
-                    <Label Content="3 KM/kom" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Sagoe Marker" FontWeight="Normal" FontSize="12" Margin="636,445,0,0" Height="23" Width="75"/>
-                    <TextBox HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="43" Margin="451,150,0,0" FontSize="14" FontWeight="Normal" FontFamily="Segoe Marker"/>
-                    <Label Content="0.5 KM/kom" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Sagoe Marker" FontWeight="Normal" FontSize="12" Margin="495,150,0,0" Height="24" Width="75"/>
-                    <Image HorizontalAlignment="Left" Height="80" VerticalAlignment="Top" Width="98" Margin="16,284,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="97*"/>
+                        <ColumnDefinition Width="809*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Margin="359.97,47,349,350" Source="/Kino;component/cv.jpg" Stretch="Fill" Width="100" Height="100" Grid.Column="1"/>
+                    <Label Content="Piće" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="432.97,10,0,0" FontFamily="Segoe UI Semibold" FontWeight="Bold" Foreground="#FF0A3068" Height="31" Width="40" Grid.Column="1"/>
+                    <Label Content="Piće" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="432.97,10,0,0" FontFamily="Segoe UI Semibold" FontWeight="Bold" Foreground="#FF0A3068" Height="31" Width="40" Grid.Column="1"/>
+                    <Label Content="Slane kokice" VerticalAlignment="Top" Margin="78,10,550,0" FontFamily="Segoe UI Semibold" FontWeight="Bold" Foreground="#FF0A3068" Height="31" Grid.ColumnSpan="2"/>
+                    <Image Margin="501.97,48,207,349" Source="/Kino;component/bw.jpg" Stretch="Fill" Width="100" Height="100" Grid.Column="1"/>
+                    <TextBox HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" Text="{Binding VodaFlasa, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="43" Margin="494.97,150,0,0" FontSize="14" FontWeight="Normal" FontFamily="Segoe Marker" Grid.Column="1"/>
+                    <Image Margin="359.97,200,349,197" Source="/Kino;component/cola1.jpg" Stretch="Fill" Width="100" Height="100" Grid.Column="1"/>
+                    <TextBox HorizontalAlignment="Left" Height="22" TextWrapping="Wrap" Text="{Binding ColaCasa, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="43" Margin="353.97,304,0,0" FontSize="14" FontWeight="Normal" FontFamily="Segoe Marker" RenderTransformOrigin="0.628,1" Grid.Column="1"/>
+                    <Image Margin="501.97,199,207,198" Source="/Kino;component/col.jpeg" Stretch="Fill" Width="100" Height="100" Grid.Column="1"/>
+                    <TextBox HorizontalAlignment="Left" Height="22" TextWrapping="Wrap" Text="{Binding ColaFlasa, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="43" Margin="494.97,304,0,0" FontSize="14" FontWeight="Normal" FontFamily="Segoe Marker" Grid.Column="1"/>
+                    <Image Margin="501.97,340,207,0" Source="/Kino;component/cappy.jpg" Stretch="Fill" Height="100" VerticalAlignment="Top" Width="100" Grid.Column="1"/>
+                    <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="{Binding SokCasa, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="43" Margin="354.97,445,0,0" FontSize="14" FontWeight="Normal" FontFamily="Segoe Marker" Grid.Column="1"/>
+                    <Image Margin="359.97,341,349,56" Source="/Kino;component/Orange-vs-Orange-Juice.jpg" Stretch="Fill" Width="100" Height="100" Grid.Column="1"/>
+                    <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="{Binding SokFlasa, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="43" Margin="495.97,445,0,0" FontSize="14" FontWeight="Normal" FontFamily="Segoe Marker" Grid.Column="1"/>
+                    <Label Content="1 KM/kom" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Sagoe Marker" FontWeight="Normal" FontSize="12" Margin="538.97,150,0,0" Height="24" Width="66" Grid.Column="1"/>
+                    <Label Content="1.5 KM/kom" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Sagoe Marker" FontWeight="Normal" FontSize="12" Margin="397.97,304,0,0" Height="22" Width="75" Grid.Column="1"/>
+                    <Label Content="2.5 KM/kom" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Sagoe Marker" FontWeight="Normal" FontSize="12" Margin="537.97,304,0,0" Height="22" Width="75" Grid.Column="1"/>
+                    <Label Content="2 KM/kom" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Sagoe Marker" FontWeight="Normal" FontSize="12" Margin="398.97,445,0,0" Height="23" Width="75" Grid.Column="1"/>
+                    <Label Content="3 KM/kom" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Sagoe Marker" FontWeight="Normal" FontSize="12" Margin="538.97,445,0,0" Height="23" Width="75" Grid.Column="1"/>
+                    <TextBox HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" Text="{Binding VodaCasa, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="43" Margin="353.97,150,0,0" FontSize="14" FontWeight="Normal" FontFamily="Segoe Marker" Grid.Column="1"/>
+                    <Label Content="0.5 KM/kom" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Sagoe Marker" FontWeight="Normal" FontSize="12" Margin="397.97,150,0,0" Height="24" Width="75" Grid.Column="1"/>
+                    <Image HorizontalAlignment="Left" Height="80" VerticalAlignment="Top" Width="98" Margin="16,284,0,0" Grid.ColumnSpan="2">
                         <Image.OpacityMask>
                             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                                 <GradientStop Color="Black" Offset="0"/>
@@ -41,24 +45,24 @@
                             </LinearGradientBrush>
                         </Image.OpacityMask>
                     </Image>
-                    <Label Content="Slatke kokice" VerticalAlignment="Top" Margin="78,242,550,0" FontFamily="Segoe UI Semibold" FontWeight="Bold" Foreground="#FF0A3068" Height="31"/>
-                    <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="43" Margin="153,415,0,0" FontSize="14" FontWeight="Normal" FontFamily="Segoe Marker"/>
-                    <Label Content="4 KM/kom" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Sagoe Marker" FontWeight="Normal" FontSize="12" Margin="197,415,0,0" Height="23" Width="75"/>
-                    <Image Margin="16,300,0,85" Source="/Kino;component/popcorn-clip-art-9ipAre5iE.png" Stretch="Fill" Width="110" HorizontalAlignment="Left" Height="110"/>
-                    <Image Margin="168,319,0,86" Source="/Kino;component/popcorn-clip-art-9ipAre5iE.png" Stretch="Fill" Width="90" HorizontalAlignment="Left" Height="90"/>
-                    <Image Margin="303,337,0,88" Source="/Kino;component/popcorn-clip-art-9ipAre5iE.png" Stretch="Fill" Width="70" HorizontalAlignment="Left" Height="70"/>
-                    <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="43" Margin="14,415,0,0" FontSize="14" FontWeight="Normal" FontFamily="Segoe Marker"/>
-                    <Label Content="6 KM/kom" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Sagoe Marker" FontWeight="Normal" FontSize="12" Margin="58,415,0,0" Height="23" Width="75"/>
-                    <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="43" Margin="291,415,0,0" FontSize="14" FontWeight="Normal" FontFamily="Segoe Marker"/>
-                    <Label Content="3 KM/kom" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Sagoe Marker" FontWeight="Normal" FontSize="12" Margin="335,415,0,0" Height="23" Width="75"/>
-                    <Label Content="Ukupno:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="753,112,0,0" FontFamily="Segoe UI" FontSize="22" FontWeight="Normal" Height="39" Width="92">
+                    <Label Content="Slatke kokice" VerticalAlignment="Top" Margin="78,242,550,0" FontFamily="Segoe UI Semibold" FontWeight="Bold" Foreground="#FF0A3068" Height="31" Grid.ColumnSpan="2"/>
+                    <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="{Binding KolicinaSrednjeS, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="43" Margin="55.97,415,0,0" FontSize="14" FontWeight="Normal" FontFamily="Segoe Marker" Grid.Column="1"/>
+                    <Label Content="4 KM/kom" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Sagoe Marker" FontWeight="Normal" FontSize="12" Margin="99.97,415,0,0" Height="23" Width="75" Grid.Column="1"/>
+                    <Image Margin="16,301,0,86" Source="/Kino;component/popcorn-clip-art-9ipAre5iE.png" Stretch="Fill" Width="110" HorizontalAlignment="Left" Height="110" Grid.ColumnSpan="2"/>
+                    <Image Margin="70.97,320,0,87" Source="/Kino;component/popcorn-clip-art-9ipAre5iE.png" Stretch="Fill" Width="90" HorizontalAlignment="Left" Height="90" Grid.Column="1"/>
+                    <Image Margin="205.97,338,0,89" Source="/Kino;component/popcorn-clip-art-9ipAre5iE.png" Stretch="Fill" Width="70" HorizontalAlignment="Left" Height="70" Grid.Column="1"/>
+                    <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="{Binding KolicinaVelikeS, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="43" Margin="14,415,0,0" FontSize="14" FontWeight="Normal" FontFamily="Segoe Marker"/>
+                    <Label Content="6 KM/kom" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Sagoe Marker" FontWeight="Normal" FontSize="12" Margin="58,415,0,0" Height="23" Width="75" Grid.ColumnSpan="2"/>
+                    <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="{Binding KolicinaMaleS, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="43" Margin="193.97,415,0,0" FontSize="14" FontWeight="Normal" FontFamily="Segoe Marker" Grid.Column="1"/>
+                    <Label Content="3 KM/kom" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Sagoe Marker" FontWeight="Normal" FontSize="12" Margin="237.97,415,0,0" Height="23" Width="75" Grid.Column="1"/>
+                    <Label Content="Ukupno:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="655.97,112,0,0" FontFamily="Segoe UI" FontSize="22" FontWeight="Normal" Height="39" Width="92" Grid.Column="1">
                         <Label.Background>
                             <ImageBrush/>
                         </Label.Background>
                     </Label>
-                    <TextBox Height="29" Margin="753,150,39,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
-                    <Button Content="Naplati" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Margin="753,193,0,0" FontFamily="Segoe UI" FontWeight="Normal" Height="27"/>
-                    <Image HorizontalAlignment="Left" Height="80" VerticalAlignment="Top" Width="98" Margin="16,46,0,0">
+                    <TextBox Name="Ukupno" Height="29" Margin="655.97,150,39,0" Text="{Binding Ukupno, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" TextWrapping="Wrap" VerticalAlignment="Top" Grid.Column="1"/>
+                    <Button Content="Naplati" HorizontalAlignment="Left" VerticalAlignment="Top" Width="114" Margin="655.97,242,0,0" FontFamily="Segoe UI" FontWeight="Normal" Height="27" Command="{Binding Kupi}" Grid.Column="1"/>
+                    <Image HorizontalAlignment="Left" Height="80" VerticalAlignment="Top" Width="98" Margin="16,46,0,0" Grid.ColumnSpan="2">
                         <Image.OpacityMask>
                             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                                 <GradientStop Color="Black" Offset="0"/>
@@ -66,54 +70,43 @@
                             </LinearGradientBrush>
                         </Image.OpacityMask>
                     </Image>
-                    <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="43" Margin="153,177,0,0" FontSize="14" FontWeight="Normal" FontFamily="Segoe Marker"/>
-                    <Label Content="3 KM/kom" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Sagoe Marker" FontWeight="Normal" FontSize="12" Margin="197,177,0,0" Height="23" Width="75"/>
-                    <Image Margin="16,62,0,323" Source="/Kino;component/popcorn-clip-art-9ipAre5iE.png" Stretch="Fill" Width="110" HorizontalAlignment="Left" Height="110"/>
-                    <Image Margin="168,79,0,326" Source="/Kino;component/popcorn-clip-art-9ipAre5iE.png" Stretch="Fill" Width="90" HorizontalAlignment="Left" Height="90"/>
-                    <Image Margin="303,97,0,328" Source="/Kino;component/popcorn-clip-art-9ipAre5iE.png" Stretch="Fill" Width="70" HorizontalAlignment="Left" Height="70"/>
-                    <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="43" Margin="14,177,0,0" FontSize="14" FontWeight="Normal" FontFamily="Segoe Marker"/>
-                    <Label Content="5 KM/kom" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Sagoe Marker" FontWeight="Normal" FontSize="12" Margin="58,177,0,0" Height="23" Width="75"/>
-                    <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="43" Margin="291,177,0,0" FontSize="14" FontWeight="Normal" FontFamily="Segoe Marker"/>
-                    <Label Content="2 KM/kom" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Sagoe Marker" FontWeight="Normal" FontSize="12" Margin="335,177,0,0" Height="23" Width="75"/>
-                    <Grid HorizontalAlignment="Left" Height="483" VerticalAlignment="Bottom" Width="420" Margin="0,0,0,1"/>
-                    <Border BorderBrush="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" BorderThickness="1" HorizontalAlignment="Left" Height="494" VerticalAlignment="Top" Width="435">
+                    <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="43" Margin="55.97,177,0,0" FontSize="14" FontWeight="Normal" FontFamily="Segoe Marker" Text="{Binding KolicinaSrednje, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Grid.Column="1" />
+                    <Label Content="3 KM/kom" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Sagoe Marker" FontWeight="Normal" FontSize="12" Margin="99.97,177,0,0" Height="23" Width="75" Grid.Column="1"/>
+                    <Image Margin="16,63,0,324" Source="/Kino;component/popcorn-clip-art-9ipAre5iE.png" Stretch="Fill" Width="110" HorizontalAlignment="Left" Height="110" Grid.ColumnSpan="2"/>
+                    <Image Margin="70.97,80,0,327" Source="/Kino;component/popcorn-clip-art-9ipAre5iE.png" Stretch="Fill" Width="90" HorizontalAlignment="Left" Height="90" Grid.Column="1"/>
+                    <Image Margin="205.97,98,0,329" Source="/Kino;component/popcorn-clip-art-9ipAre5iE.png" Stretch="Fill" Width="70" HorizontalAlignment="Left" Height="70" Grid.Column="1"/>
+                    <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="{Binding KolicinaVelike, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="43" Margin="14,177,0,0" FontSize="14" FontWeight="Normal" FontFamily="Segoe Marker"/>
+                    <Label Content="5 KM/kom" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Sagoe Marker" FontWeight="Normal" FontSize="12" Margin="58,177,0,0" Height="23" Width="75" Grid.ColumnSpan="2"/>
+                    <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="{Binding KolicinaMale, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="43" Margin="193.97,177,0,0" FontSize="14" FontWeight="Normal" FontFamily="Segoe Marker" Grid.Column="1"/>
+                    <Label Content="2 KM/kom" HorizontalAlignment="Left" VerticalAlignment="Top" FontFamily="Sagoe Marker" FontWeight="Normal" FontSize="12" Margin="237.97,177,0,0" Height="23" Width="75" Grid.Column="1"/>
+                    <Grid HorizontalAlignment="Left" Height="483" VerticalAlignment="Bottom" Width="420" Margin="0,0,0,1" Grid.ColumnSpan="2"/>
+                    <Border BorderBrush="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" BorderThickness="1" HorizontalAlignment="Left" Height="494" VerticalAlignment="Top" Width="435" Grid.ColumnSpan="2">
                         <Border BorderBrush="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" BorderThickness="1" Margin="0,0,0,-1"/>
                     </Border>
-                    <Border BorderBrush="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" BorderThickness="1" HorizontalAlignment="Left" Height="494" VerticalAlignment="Top" Width="295" Margin="435,0,0,0"/>
+                    <Border BorderBrush="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" BorderThickness="1" HorizontalAlignment="Left" Height="494" VerticalAlignment="Top" Width="295" Margin="337.97,0,0,0" Grid.Column="1"/>
+                    <Button Content="Cijena" HorizontalAlignment="Left" Margin="655.97,200,0,0" VerticalAlignment="Top" Width="114" Command="{Binding Cijena}" Grid.Column="1"/>
                 </Grid>
             </TabItem>
             <TabItem Header="Nabavka" FontFamily="Segoe UI" FontWeight="Normal">
                 <Grid Background="#FFE5E5E5">
-                    <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="75" Margin="86,294,0,0"/>
-                    <Label Content="Male" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="25,292,0,0"/>
-                    <Button Content="Nabavi" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="182,294,0,0" Height="23"/>
-                    <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="75" Margin="86,330,0,0"/>
-                    <Label Content="Srednje" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="25,328,0,0"/>
-                    <Button Content="Nabavi" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="182,330,0,0" Height="23"/>
-                    <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="75" Margin="86,367,0,0" TextChanged="TextBox_TextChanged"/>
-                    <Label Content="Velike" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="25,365,0,0"/>
-                    <Button Content="Nabavi" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="182,367,0,0" Height="23"/>
-                    <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="75" Margin="86,59,0,0" TextChanged="TextBox_TextChanged_1"/>
-                    <Label Content="Male" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="25,57,0,0"/>
-                    <Button Content="Nabavi" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="182,59,0,0" Height="23"/>
-                    <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="75" Margin="86,95,0,0"/>
-                    <Label Content="Srednje" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="25,93,0,0"/>
-                    <Button Content="Nabavi" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="182,95,0,0" Height="23"/>
-                    <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="75" Margin="86,132,0,0"/>
-                    <Label Content="Velike" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="25,130,0,0"/>
-                    <Button Content="Nabavi" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="182,132,0,0" Height="23"/>
-                    <Label Content="Slane kokice:" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="1.255,1.032" Margin="25,10,0,0"/>
-                    <Label Content="Slatke kokice:" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="1.255,1.032" Margin="25,245,0,0"/>
-                    <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="75" Margin="548,59,0,0" TextChanged="TextBox_TextChanged_1"/>
-                    <Label Content="Voda" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="408,57,0,0"/>
-                    <Button Content="Nabavi" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="644,59,0,0" Height="23"/>
-                    <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="75" Margin="548,95,0,0"/>
-                    <Label Content="Gazirano piće" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="408,93,0,0"/>
-                    <Button Content="Nabavi" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="644,95,0,0" Height="23"/>
-                    <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="75" Margin="548,132,0,0"/>
-                    <Label Content="Negazirano piće" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="408,130,0,0"/>
-                    <Button Content="Nabavi" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="644,132,0,0" Height="23"/>
-                    <Label Content="Piće:" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="1.255,1.032" Margin="409,13,0,0"/>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="91*"/>
+                        <ColumnDefinition Width="802*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBox HorizontalAlignment="Left" Height="36" TextWrapping="Wrap" Text="{Binding KolicinaVelikeS, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="97" Margin="31,296,0,0" Grid.Column="1"/>
+                    <Label Content="Količina:&#xD;&#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="25,292,0,0" Grid.ColumnSpan="2" Height="40" Width="92" FontSize="18"/>
+                    <TextBox HorizontalAlignment="Left" Height="30" TextWrapping="Wrap" Text="{Binding KolicinaVelike, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="97" Margin="31,75,0,0" Grid.Column="1"/>
+                    <Label Content="Količina:                            " HorizontalAlignment="Left" VerticalAlignment="Top" Margin="25,71,0,0" Grid.ColumnSpan="2" FontSize="18" Width="92"/>
+                    <Label Content="Slane kokice:" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="1.255,1.032" Margin="25,10,0,0" Grid.ColumnSpan="2" Height="45" Width="172" FontSize="20"/>
+                    <Label Content="Slatke kokice:" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="1.255,1.032" Margin="25,196,0,0" Grid.ColumnSpan="2" Height="44" Width="136" FontSize="20"/>
+                    <TextBox HorizontalAlignment="Left" Height="30" TextWrapping="Wrap" Text="{Binding VodaCasa, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="75" Margin="482,77,0,0" Grid.Column="1"/>
+                    <Label Content="Voda:&#xD;&#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="318,69,0,0" Grid.Column="1" RenderTransformOrigin="0.877,1.699" FontSize="18"/>
+                    <TextBox HorizontalAlignment="Left" Height="28" TextWrapping="Wrap" Text="{Binding ColaCasa, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="75" Margin="482,128,0,0" Grid.Column="1"/>
+                    <Label Content="Gazirano piće:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="318,122,0,0" Grid.Column="1" FontSize="18"/>
+                    <TextBox HorizontalAlignment="Left" Height="29" TextWrapping="Wrap" Text="{Binding SokCasa, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Top" Width="75" Margin="482,178,0,0" Grid.Column="1"/>
+                    <Label Content="Negazirano piće:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="318,173,0,0" Grid.Column="1" FontSize="18"/>
+                    <Button Content="Nabavi" HorizontalAlignment="Left" VerticalAlignment="Top" Width="115" Margin="457,309,0,0" Height="63" Grid.Column="1" FontSize="22" Command="{Binding Nabavi}"/>
+                    <Label Content="Piće:" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="1.255,1.032" Margin="318,13,0,0" Grid.Column="1" Height="42" Width="105" FontSize="20"/>
                 </Grid>
             </TabItem>
         </TabControl>

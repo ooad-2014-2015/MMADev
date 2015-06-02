@@ -26,8 +26,6 @@ namespace Kino
             InitializeComponent();
         }
 
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e){}
-        private void Button_Click(object sender, RoutedEventArgs e){}
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
@@ -55,6 +53,11 @@ namespace Kino
                 this.Close();
             }
         
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Dobro došli u Kino! \nUkoliko unesete šifru 'film' otvoriće se forma u kojoj će biti moguće napraviti sedmični raspored filmova te isprintati isti. Također će biti moguće dodati novi film u sedmični program, ali i obrisati potojeći. \nUkoliko unesete šifru 'karta' otvoriće se forma u kojoj će biti omogućena prodaja karata, rezervacija karata kao i registracija novih klijenata. \nUkoliko uneste šifru 'dodaci' otvoriće se forma na kojoj će biti omogućena prodaja i ažuriranje količine zaliha unutar sistema.", "Uputa za korištenje aplikacije", MessageBoxButton.OK, MessageBoxImage.Information);
         }
     }
 }

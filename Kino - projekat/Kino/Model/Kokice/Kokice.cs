@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.ComponentModel;
 
 namespace Kino.Model.Kokice
 {
-    public class Kokice
+    public class Kokice : INotifyPropertyChanged
     {
         public int MaleCijena {get; set;}
         public int SrednjeCijena {get; set;}
@@ -22,6 +23,15 @@ namespace Kino.Model.Kokice
         }
 
         public Kokice() { }
+
+        public event PropertyChangedEventHandler PropertyChanged;
+        protected void OnPropertyChanged(string propertyName)
+        {
+            if (PropertyChanged != null)
+            {
+                PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+            }
+        }
 
     }
 }

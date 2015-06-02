@@ -6,155 +6,159 @@
         <TabControl HorizontalAlignment="Left" Height="595" VerticalAlignment="Top" Width="1091" Margin="0,-1,0,0">
             <TabItem Header="SALA 1" Height="39" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="-2,0,0,0" Width="90" FontSize="14">
                 <Grid Background="#FFE5E5E5" Margin="0,0,-3,0">
-                    <Image Source="/Kino;component/raspored.jpg" Stretch="Fill" Height="489" VerticalAlignment="Top" Margin="-10,0,-21,0"/>
+                    <Image Source="/Kino;component/raspored.jpg" Stretch="Fill" Height="489" VerticalAlignment="Top" Margin="-10,0,0,0"/>
                     <Canvas HorizontalAlignment="Left" Height="553" VerticalAlignment="Top" Width="1110" Margin="0,0,0,-9"/>
-                    <Button Content="Printaj raspored" HorizontalAlignment="Left" VerticalAlignment="Top" Width="174" Margin="824,509,0,0" Command="{Binding NapraviRaspored}"/>
+                    <Button Content="Printaj raspored" HorizontalAlignment="Left" VerticalAlignment="Top" Width="174" Margin="824,515,0,0" Command="{Binding NapraviRaspored}"/>
                     <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="138,107,0,0" VerticalAlignment="Top" Width="111"/>
                     <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="268,107,0,0" VerticalAlignment="Top" Width="111"/>
                     <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="408,107,0,0" VerticalAlignment="Top" Width="111"/>
                     <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="548,107,0,0" VerticalAlignment="Top" Width="111"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="690,107,0,0" VerticalAlignment="Top" Width="110"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="824,107,0,0" VerticalAlignment="Top" Width="110"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="960,107,-8,0" VerticalAlignment="Top" Width="110"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="690,107,0,0" VerticalAlignment="Top" Width="111"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="824,107,0,0" VerticalAlignment="Top" Width="111"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="960,107,-8,0" VerticalAlignment="Top" Width="111"/>
                     <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="138,177,0,0" VerticalAlignment="Top" Width="111"/>
                     <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="268,177,0,0" VerticalAlignment="Top" Width="111"/>
                     <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="408,177,0,0" VerticalAlignment="Top" Width="111"/>
                     <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="548,177,0,0" VerticalAlignment="Top" Width="111"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="690,177,0,0" VerticalAlignment="Top" Width="110"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="824,177,0,0" VerticalAlignment="Top" Width="110"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="960,177,-8,0" VerticalAlignment="Top" Width="110"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="690,177,0,0" VerticalAlignment="Top" Width="111"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="824,177,0,0" VerticalAlignment="Top" Width="111"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="960,177,-8,0" VerticalAlignment="Top" Width="111"/>
                     <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="138,247,0,0" VerticalAlignment="Top" Width="111"/>
                     <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="268,247,0,0" VerticalAlignment="Top" Width="111"/>
                     <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="408,247,0,0" VerticalAlignment="Top" Width="111"/>
                     <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="548,247,0,0" VerticalAlignment="Top" Width="111"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="690,247,0,0" VerticalAlignment="Top" Width="110"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="824,247,0,0" VerticalAlignment="Top" Width="110"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="960,247,-8,0" VerticalAlignment="Top" Width="110"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="690,247,0,0" VerticalAlignment="Top" Width="111"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="824,247,0,0" VerticalAlignment="Top" Width="111"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="960,247,-8,0" VerticalAlignment="Top" Width="111"/>
                     <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="138,317,0,0" VerticalAlignment="Top" Width="111"/>
                     <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="268,317,0,0" VerticalAlignment="Top" Width="111"/>
                     <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="408,317,0,0" VerticalAlignment="Top" Width="111"/>
                     <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="548,317,0,0" VerticalAlignment="Top" Width="111"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="690,317,0,0" VerticalAlignment="Top" Width="110"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="824,317,0,0" VerticalAlignment="Top" Width="110"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="960,317,-8,0" VerticalAlignment="Top" Width="110"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="690,317,0,0" VerticalAlignment="Top" Width="111"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="824,317,0,0" VerticalAlignment="Top" Width="111"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="960,317,-8,0" VerticalAlignment="Top" Width="111"/>
                     <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="138,385,0,0" VerticalAlignment="Top" Width="111"/>
                     <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="268,385,0,0" VerticalAlignment="Top" Width="111"/>
                     <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="408,385,0,0" VerticalAlignment="Top" Width="111"/>
                     <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="548,385,0,0" VerticalAlignment="Top" Width="111"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="690,385,0,0" VerticalAlignment="Top" Width="110"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="824,385,0,0" VerticalAlignment="Top" Width="110"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="960,385,-8,0" VerticalAlignment="Top" Width="110"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="690,385,0,0" VerticalAlignment="Top" Width="111"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="824,385,0,0" VerticalAlignment="Top" Width="111"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="960,385,-8,0" VerticalAlignment="Top" Width="111"/>
                     <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="138,455,0,0" VerticalAlignment="Top" Width="111"/>
                     <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="268,455,0,0" VerticalAlignment="Top" Width="111"/>
                     <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="408,455,0,0" VerticalAlignment="Top" Width="111"/>
                     <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="548,455,0,0" VerticalAlignment="Top" Width="111"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="690,455,0,0" VerticalAlignment="Top" Width="110"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="824,455,0,0" VerticalAlignment="Top" Width="110"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="960,455,-8,0" VerticalAlignment="Top" Width="110"/>
-
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="690,455,0,0" VerticalAlignment="Top" Width="111"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="824,455,0,0" VerticalAlignment="Top" Width="111"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="960,455,-8,0" VerticalAlignment="Top" Width="111"/>
                 </Grid>
             </TabItem>
             <TabItem Header="SALA 2" Height="39" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="-2,0,0,0" Width="90" FontSize="14">
                 <Grid Background="#FFE5E5E5">
-                    <Image Source="/Kino;component/raspored.jpg" Stretch="Fill" Height="489" VerticalAlignment="Top" Margin="-10,0,-23,0"/>
-                    <Canvas HorizontalAlignment="Left" Height="553" VerticalAlignment="Top" Width="1158" Margin="-10,-9,-67,0"/>
-                    <Button Content="Printaj raspored" HorizontalAlignment="Left" VerticalAlignment="Top" Width="174" Margin="864,494,0,0" Command="{Binding NapraviRaspored}"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="164,455,0,0" VerticalAlignment="Top" Width="90"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="315,455,0,0" VerticalAlignment="Top" Width="90"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="460,455,0,0" VerticalAlignment="Top" Width="90"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="601,455,0,0" VerticalAlignment="Top" Width="90"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="751,455,0,0" VerticalAlignment="Top" Width="90"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="901,455,0,0" VerticalAlignment="Top" Width="90"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv"  HorizontalAlignment="Left" Margin="1044,455,0,0" VerticalAlignment="Top" Width="90"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="164,385,0,0" VerticalAlignment="Top" Width="90"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="315,385,0,0" VerticalAlignment="Top" Width="90"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="460,385,0,0" VerticalAlignment="Top" Width="90"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="601,385,0,0" VerticalAlignment="Top" Width="90"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="751,385,0,0" VerticalAlignment="Top" Width="90"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="901,385,0,0" VerticalAlignment="Top" Width="90"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="1044,385,0,0" VerticalAlignment="Top" Width="90"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="164,317,0,0" VerticalAlignment="Top" Width="90"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="315,317,0,0" VerticalAlignment="Top" Width="90"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="460,317,0,0" VerticalAlignment="Top" Width="90"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="601,317,0,0" VerticalAlignment="Top" Width="90"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="751,317,0,0" VerticalAlignment="Top" Width="90"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="901,317,0,0" VerticalAlignment="Top" Width="90"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="1044,317,0,0" VerticalAlignment="Top" Width="90"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="164,247,0,0" VerticalAlignment="Top" Width="90"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="315,247,0,0" VerticalAlignment="Top" Width="90"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="460,247,0,0" VerticalAlignment="Top" Width="90"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="601,247,0,0" VerticalAlignment="Top" Width="90"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="751,247,0,0" VerticalAlignment="Top" Width="90"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="901,247,0,0" VerticalAlignment="Top" Width="90"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="1044,247,0,0" VerticalAlignment="Top" Width="90"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="164,177,0,0" VerticalAlignment="Top" Width="90"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="315,177,0,0" VerticalAlignment="Top" Width="90"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="460,177,0,0" VerticalAlignment="Top" Width="90"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="601,177,0,0" VerticalAlignment="Top" Width="90"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="751,177,0,0" VerticalAlignment="Top" Width="90"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="901,177,0,0" VerticalAlignment="Top" Width="90"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="1044,177,0,0" VerticalAlignment="Top" Width="90"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="164,107,0,0" VerticalAlignment="Top" Width="90"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="315,107,0,0" VerticalAlignment="Top" Width="90"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="460,107,0,0" VerticalAlignment="Top" Width="90"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="601,107,0,0" VerticalAlignment="Top" Width="90"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="751,107,0,0" VerticalAlignment="Top" Width="90"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="901,107,0,0" VerticalAlignment="Top" Width="90"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="1044,107,0,0" VerticalAlignment="Top" Width="90"/>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="32*"/>
+                        <ColumnDefinition Width="123*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Source="/Kino;component/raspored.jpg" Stretch="Fill" Height="489" VerticalAlignment="Top" Margin="-10,0,0,0" Grid.ColumnSpan="2"/>
+                    <Canvas HorizontalAlignment="Left" Height="553" VerticalAlignment="Top" Width="1158" Margin="-10,-9,-63,0" Grid.ColumnSpan="2"/>
+                    <Button Content="Printaj raspored" HorizontalAlignment="Left" VerticalAlignment="Top" Width="174" Margin="600,515,0,0" Command="{Binding NapraviRaspored}" Grid.Column="1"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="138,455,0,0" VerticalAlignment="Top" Width="111" Grid.ColumnSpan="2"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="44,455,0,0" VerticalAlignment="Top" Width="111" Grid.Column="1"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="184,455,0,0" VerticalAlignment="Top" Width="111" Grid.Column="1"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="324,455,0,0" VerticalAlignment="Top" Width="111" Grid.Column="1"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="466,455,0,0" VerticalAlignment="Top" Width="111" Grid.Column="1"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="600,455,0,0" VerticalAlignment="Top" Width="111" Grid.Column="1"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv"  HorizontalAlignment="Left" Margin="736,455,0,0" VerticalAlignment="Top" Width="111" Grid.Column="1"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="138,385,0,0" VerticalAlignment="Top" Width="111" Grid.ColumnSpan="2"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="44,385,0,0" VerticalAlignment="Top" Width="111" Grid.Column="1"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="184,385,0,0" VerticalAlignment="Top" Width="111" Grid.Column="1"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="324,385,0,0" VerticalAlignment="Top" Width="111" Grid.Column="1"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="466,385,0,0" VerticalAlignment="Top" Width="111" Grid.Column="1"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="600,385,0,0" VerticalAlignment="Top" Width="111" Grid.Column="1" Height="25"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="736,385,0,0" VerticalAlignment="Top" Width="111" Grid.Column="1"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="138,317,0,0" VerticalAlignment="Top" Width="111" Grid.ColumnSpan="2"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="44,317,0,0" VerticalAlignment="Top" Width="111" Grid.Column="1"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="184,317,0,0" VerticalAlignment="Top" Width="111" Grid.Column="1"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="324,317,0,0" VerticalAlignment="Top" Width="111" Grid.Column="1"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="466,317,0,0" VerticalAlignment="Top" Width="111" Grid.Column="1"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="600,317,0,0" VerticalAlignment="Top" Width="111" Grid.Column="1"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="736,317,0,0" VerticalAlignment="Top" Width="111" Grid.Column="1"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="138,247,0,0" VerticalAlignment="Top" Width="111" Grid.ColumnSpan="2"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="44,247,0,0" VerticalAlignment="Top" Width="111" Grid.Column="1"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="184,247,0,0" VerticalAlignment="Top" Width="111" Grid.Column="1"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="324,247,0,0" VerticalAlignment="Top" Width="111" Grid.Column="1"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="466,247,0,0" VerticalAlignment="Top" Width="111" Grid.Column="1"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="600,247,0,0" VerticalAlignment="Top" Width="111" Grid.Column="1"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="736,247,0,0" VerticalAlignment="Top" Width="111" Grid.Column="1"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="138,177,0,0" VerticalAlignment="Top" Width="111" Grid.ColumnSpan="2"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="44,177,0,0" VerticalAlignment="Top" Width="111" Grid.Column="1"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="184,177,0,0" VerticalAlignment="Top" Width="111" Grid.Column="1"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="324,177,0,0" VerticalAlignment="Top" Width="111" Grid.Column="1"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="466,177,0,0" VerticalAlignment="Top" Width="111" Grid.Column="1"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="600,177,0,0" VerticalAlignment="Top" Width="111" Grid.Column="1"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="736,177,0,0" VerticalAlignment="Top" Width="111" Grid.Column="1"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="138,107,0,0" VerticalAlignment="Top" Width="111" Grid.ColumnSpan="2"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="44,107,0,0" VerticalAlignment="Top" Width="111" Height="25" Grid.Column="1"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="184,107,0,0" VerticalAlignment="Top" Width="111" Height="25" Grid.Column="1"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="324,107,0,0" VerticalAlignment="Top" Width="111" Height="25" Grid.Column="1"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="466,107,0,0" VerticalAlignment="Top" Width="111" Height="25" Grid.Column="1"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="600,107,0,0" VerticalAlignment="Top" Width="111" Height="25" Grid.Column="1"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="736,107,0,0" VerticalAlignment="Top" Width="111" Height="25" Grid.Column="1"/>
                 </Grid>
             </TabItem>
             <TabItem Header="SALA 3" Height="39" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="-2,0,0,0" Width="90" FontSize="14">
                 <Grid Background="#FFE5E5E5">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="130*"/>
-                        <ColumnDefinition Width="162*"/>
-                        <ColumnDefinition Width="789*"/>
+                        <ColumnDefinition Width="19*"/>
+                        <ColumnDefinition Width="144*"/>
+                        <ColumnDefinition Width="792*"/>
                     </Grid.ColumnDefinitions>
-                    <Image Source="/Kino;component/raspored.jpg" Stretch="Fill" Height="489" VerticalAlignment="Top" Margin="-10,0,1,0" Grid.ColumnSpan="3"/>
-                    <Canvas HorizontalAlignment="Left" Height="553" VerticalAlignment="Top" Width="1158" Grid.ColumnSpan="3" Margin="0,0,-77,-9"/>
-                    <Button Content="Printaj raspored" HorizontalAlignment="Left" VerticalAlignment="Top" Width="174" Margin="663,494,-48,0" Grid.Column="2" Command="{Binding NapraviRaspored}" Height="25"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" Margin="24,107,49,0" VerticalAlignment="Top" Grid.Column="1" Height="25"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="2,107,0,0" VerticalAlignment="Top" Width="90" Grid.Column="2" Height="25"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="147,107,0,0" VerticalAlignment="Top" Width="90" Grid.Column="2" Height="25"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="288,107,0,0" VerticalAlignment="Top" Width="90" Grid.Column="2" Height="25"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="438,107,0,0" VerticalAlignment="Top" Width="90" Grid.Column="2" Height="25"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="588,107,0,0" VerticalAlignment="Top" Width="90" Grid.Column="2" Height="25"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="731,107,-32,0" VerticalAlignment="Top" Width="90" Grid.Column="2" Height="25"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="24,177,0,0" VerticalAlignment="Top" Width="90" Grid.Column="1" Height="25"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="2,177,0,0" VerticalAlignment="Top" Width="90" Grid.Column="2" Height="25"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="147,177,0,0" VerticalAlignment="Top" Width="90" Grid.Column="2" Height="25"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="288,177,0,0" VerticalAlignment="Top" Width="90" Grid.Column="2" Height="25"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="438,177,0,0" VerticalAlignment="Top" Width="90" Grid.Column="2" Height="25"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="588,177,0,0" VerticalAlignment="Top" Width="90" Grid.Column="2" Height="25"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="731,177,-32,0" VerticalAlignment="Top" Width="90" Grid.Column="2" Height="25"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="24,247,0,0" VerticalAlignment="Top" Width="90" Grid.Column="1" Height="25"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="2,247,0,0" VerticalAlignment="Top" Width="90" Grid.Column="2" Height="25"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="147,247,0,0" VerticalAlignment="Top" Width="90" Grid.Column="2" Height="25"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="288,247,0,0" VerticalAlignment="Top" Width="90" Grid.Column="2" Height="25"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="438,247,0,0" VerticalAlignment="Top" Width="90" Grid.Column="2" Height="25"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="588,247,0,0" VerticalAlignment="Top" Width="90" Grid.Column="2" Height="25"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="731,247,-32,0" VerticalAlignment="Top" Width="90" Grid.Column="2" Height="25"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="24,317,0,0" VerticalAlignment="Top" Width="90" Grid.Column="1" Height="25"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="2,317,0,0" VerticalAlignment="Top" Width="90" Grid.Column="2" Height="25"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="147,317,0,0" VerticalAlignment="Top" Width="90" Grid.Column="2" Height="25"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="288,317,0,0" VerticalAlignment="Top" Width="90" Grid.Column="2" Height="25"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="438,317,0,0" VerticalAlignment="Top" Width="90" Grid.Column="2" Height="25"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="588,317,0,0" VerticalAlignment="Top" Width="90" Grid.Column="2" Height="25"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="731,317,-32,0" VerticalAlignment="Top" Width="90" Grid.Column="2" Height="25"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="24,385,0,0" VerticalAlignment="Top" Width="90" Grid.Column="1" Height="25"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="2,385,0,0" VerticalAlignment="Top" Width="90" Grid.Column="2" Height="25"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="147,385,0,0" VerticalAlignment="Top" Width="90" Grid.Column="2" Height="25"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="288,385,0,0" VerticalAlignment="Top" Width="90" Grid.Column="2" Height="25"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="438,385,0,0" VerticalAlignment="Top" Width="90" Grid.Column="2" Height="25"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="588,385,0,0" VerticalAlignment="Top" Width="90" Grid.Column="2" Height="25"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="731,385,-32,0" VerticalAlignment="Top" Width="90" Grid.Column="2" Height="25"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="24,455,0,0" VerticalAlignment="Top" Width="90" Grid.Column="1" Height="25"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="2,455,0,0" VerticalAlignment="Top" Width="90" Grid.Column="2" Height="25"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="147,455,0,0" VerticalAlignment="Top" Width="90" Grid.Column="2" Height="25"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="288,455,0,0" VerticalAlignment="Top" Width="90" Grid.Column="2" Height="25"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="438,455,0,0" VerticalAlignment="Top" Width="90" Grid.Column="2" Height="25"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="588,455,0,0" VerticalAlignment="Top" Width="90" Grid.Column="2" Height="25"/>
-                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="731,455,-32,0" VerticalAlignment="Top" Width="90" Grid.Column="2" Height="25"/>
+                    <Image Source="/Kino;component/raspored.jpg" Stretch="Fill" Height="489" VerticalAlignment="Top" Margin="-10,0,0,0" Grid.ColumnSpan="4"/>
+                    <Canvas HorizontalAlignment="Left" Height="553" VerticalAlignment="Top" Width="1158" Grid.ColumnSpan="4" Margin="0,0,-73,-5"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" Margin="8,107,43,0" VerticalAlignment="Top" Grid.Column="1" Height="25" Width="111" Grid.ColumnSpan="2"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="118.776,107,0,0" VerticalAlignment="Top" Width="111" Grid.Column="2" Height="25" Grid.ColumnSpan="2"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="115,107,0,0" VerticalAlignment="Top" Width="111" Grid.Column="3" Height="25"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="255,107,0,0" VerticalAlignment="Top" Width="111" Grid.Column="3" Height="25"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="397,107,0,0" VerticalAlignment="Top" Width="112" Grid.Column="3" Height="25"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="531,107,0,0" VerticalAlignment="Top" Width="111" Grid.Column="3" Height="25"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="667,107,0,0" VerticalAlignment="Top" Width="111" Grid.Column="3" Height="25"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="8,177,0,0" VerticalAlignment="Top" Width="111" Grid.Column="1" Height="25" Grid.ColumnSpan="2"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="118.776,177,0,0" VerticalAlignment="Top" Width="111" Grid.Column="2" Height="25" Grid.ColumnSpan="2"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="115,177,0,0" VerticalAlignment="Top" Width="111" Grid.Column="3" Height="25"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="255,177,0,0" VerticalAlignment="Top" Width="111" Grid.Column="3" Height="25"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="397,177,0,0" VerticalAlignment="Top" Width="112" Grid.Column="3" Height="25"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="531,177,0,0" VerticalAlignment="Top" Width="111" Grid.Column="3" Height="25" RenderTransformOrigin="0.428,0.429"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="667,177,0,0" VerticalAlignment="Top" Width="111" Grid.Column="3" Height="25"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="8,247,0,0" VerticalAlignment="Top" Width="111" Grid.Column="1" Height="25" Grid.ColumnSpan="2"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="118.776,247,0,0" VerticalAlignment="Top" Width="111" Grid.Column="2" Height="25" Grid.ColumnSpan="2"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="115,247,0,0" VerticalAlignment="Top" Width="111" Grid.Column="3" Height="25"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="255,247,0,0" VerticalAlignment="Top" Width="111" Grid.Column="3" Height="25"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="397,247,0,0" VerticalAlignment="Top" Width="112" Grid.Column="3" Height="25"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="531,247,0,0" VerticalAlignment="Top" Width="111" Grid.Column="3" Height="25"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="667,247,0,0" VerticalAlignment="Top" Width="111" Grid.Column="3" Height="25"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="8,317,0,0" VerticalAlignment="Top" Width="111" Grid.Column="1" Height="25" Grid.ColumnSpan="2"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="118.776,317,0,0" VerticalAlignment="Top" Width="111" Grid.Column="2" Height="25" Grid.ColumnSpan="2"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="115,317,0,0" VerticalAlignment="Top" Width="111" Grid.Column="3" Height="25"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="255,317,0,0" VerticalAlignment="Top" Width="111" Grid.Column="3" Height="25"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="397,317,0,0" VerticalAlignment="Top" Width="112" Grid.Column="3" Height="25"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="531,317,0,0" VerticalAlignment="Top" Width="111" Grid.Column="3" Height="25"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="667,317,0,0" VerticalAlignment="Top" Width="111" Grid.Column="3" Height="25"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="8,385,0,0" VerticalAlignment="Top" Width="111" Grid.Column="1" Height="25" Grid.ColumnSpan="2"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="118.776,385,0,0" VerticalAlignment="Top" Width="111" Grid.Column="2" Height="25" Grid.ColumnSpan="2"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="115,385,0,0" VerticalAlignment="Top" Width="111" Grid.Column="3" Height="25"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="255,385,0,0" VerticalAlignment="Top" Width="111" Grid.Column="3" Height="25"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="397,385,0,0" VerticalAlignment="Top" Width="112" Grid.Column="3" Height="25"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="531,385,0,0" VerticalAlignment="Top" Width="111" Grid.Column="3" Height="25"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="667,385,0,0" VerticalAlignment="Top" Width="111" Grid.Column="3" Height="25"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="8,455,0,0" VerticalAlignment="Top" Width="111" Grid.Column="1" Height="25" Grid.ColumnSpan="2"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="119,455,0,0" VerticalAlignment="Top" Width="111" Grid.Column="2" Height="25" Grid.ColumnSpan="2"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="115,455,0,0" VerticalAlignment="Top" Width="111" Grid.Column="3" Height="25"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="255,455,0,0" VerticalAlignment="Top" Width="111" Grid.Column="3" Height="25"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="397,455,0,0" VerticalAlignment="Top" Width="112" Grid.Column="3" Height="25"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="531,455,0,0" VerticalAlignment="Top" Width="111" Grid.Column="3" Height="25"/>
+                    <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="667,455,0,0" VerticalAlignment="Top" Width="111" Grid.Column="3" Height="25"/>
+                    <Button Content="Printaj raspored" HorizontalAlignment="Left" VerticalAlignment="Top" Width="174" Margin="531,515,0,0" Command="{Binding NapraviRaspored}" Grid.Column="3"/>
                 </Grid>
             </TabItem>
             <TabItem Header="Dodaj/obriši film" Height="39" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="-2,0,-53,0" Width="145" FontSize="14">

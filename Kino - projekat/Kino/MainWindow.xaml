@@ -3,12 +3,16 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="KINO" Height="225.567" Width="567.164" ResizeMode="NoResize" SizeToContent="WidthAndHeight">
     <Grid HorizontalAlignment="Left" Width="561" Height="196" VerticalAlignment="Top">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="268*"/>
+            <ColumnDefinition Width="293*"/>
+        </Grid.ColumnDefinitions>
         <Label HorizontalAlignment="Left" VerticalAlignment="Top"/>
-        <Label Content="Password" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="211,39,0,0" Height="27" Width="68" FontSize="14"/>
-        <Image Margin="10,107,332,0" Source="Kino_logo_NEW.png" Stretch="Fill"/>
-        <Button Content="OK" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="660,152,0,0" Click="Button_Click"/>
-        <Button Content="OK" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="460,91,0,0" Click="Button_Click_1" IsDefault="True"/>
-        <PasswordBox x:Name="PasswordBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="294,43,0,0" Height="23" Width="241"/>
+        <Label Content="Password" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="211,39,0,0" Height="27" Width="68" FontSize="14" Grid.ColumnSpan="2"/>
+        <Image Margin="10,107,38.689,0" Source="Kino_logo_NEW.png" Stretch="Fill"/>
+        <Button Content="OK" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="192.311,91,0,0" Click="Button_Click_1" IsDefault="True" Grid.Column="1"/>
+        <PasswordBox x:Name="PasswordBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="26.311,43,0,0" Height="23" Width="241" Grid.Column="1"/>
+        <Button Content="Help" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Grid.Column="1" Margin="192,166,0,0" Click="Button_Click_2"/>
 
     </Grid>
 </Window>
