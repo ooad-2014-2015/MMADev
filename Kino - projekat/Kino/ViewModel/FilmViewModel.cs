@@ -102,11 +102,17 @@ namespace Kino.ViewModel
 
         public void napraviRaspored(object parametar)
         {
+            forma.Printaj1.Visibility = Visibility.Hidden;
+            forma.Printaj2.Visibility = Visibility.Hidden;
+            forma.Printaj3.Visibility = Visibility.Hidden;
             PrintDialog printDialog = new PrintDialog();
             if (printDialog.ShowDialog() == true)
             {
                 printDialog.PrintVisual(forma ,"Rasproed");
             }
+            forma.Printaj1.Visibility = Visibility.Visible;
+            forma.Printaj2.Visibility = Visibility.Visible;
+            forma.Printaj3.Visibility = Visibility.Visible;
         }
 
         public void obrisiFilm(object parametar)

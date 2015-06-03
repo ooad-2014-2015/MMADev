@@ -8,7 +8,7 @@
                 <Grid Background="#FFE5E5E5" Margin="0,0,-3,0">
                     <Image Source="/Kino;component/raspored.jpg" Stretch="Fill" Height="489" VerticalAlignment="Top" Margin="-10,0,0,0"/>
                     <Canvas HorizontalAlignment="Left" Height="553" VerticalAlignment="Top" Width="1110" Margin="0,0,0,-9"/>
-                    <Button Content="Printaj raspored" HorizontalAlignment="Left" VerticalAlignment="Top" Width="174" Margin="824,515,0,0" Command="{Binding NapraviRaspored}"/>
+                    <Button x:Name="Printaj1" Content="Printaj raspored" HorizontalAlignment="Left" VerticalAlignment="Top" Width="174" Margin="824,515,0,0" Command="{Binding NapraviRaspored}"/>
                     <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="138,107,0,0" VerticalAlignment="Top" Width="111"/>
                     <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="268,107,0,0" VerticalAlignment="Top" Width="111"/>
                     <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="408,107,0,0" VerticalAlignment="Top" Width="111"/>
@@ -61,7 +61,7 @@
                     </Grid.ColumnDefinitions>
                     <Image Source="/Kino;component/raspored.jpg" Stretch="Fill" Height="489" VerticalAlignment="Top" Margin="-10,0,0,0" Grid.ColumnSpan="2"/>
                     <Canvas HorizontalAlignment="Left" Height="553" VerticalAlignment="Top" Width="1158" Margin="-10,-9,-63,0" Grid.ColumnSpan="2"/>
-                    <Button Content="Printaj raspored" HorizontalAlignment="Left" VerticalAlignment="Top" Width="174" Margin="600,515,0,0" Command="{Binding NapraviRaspored}" Grid.Column="1"/>
+                    <Button x:Name="Printaj2" Content="Printaj raspored" HorizontalAlignment="Left" VerticalAlignment="Top" Width="174" Margin="600,515,0,0" Command="{Binding NapraviRaspored}" Grid.Column="1"/>
                     <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="138,455,0,0" VerticalAlignment="Top" Width="111" Grid.ColumnSpan="2"/>
                     <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="44,455,0,0" VerticalAlignment="Top" Width="111" Grid.Column="1"/>
                     <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="184,455,0,0" VerticalAlignment="Top" Width="111" Grid.Column="1"/>
@@ -158,7 +158,7 @@
                     <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="397,455,0,0" VerticalAlignment="Top" Width="112" Grid.Column="3" Height="25"/>
                     <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="531,455,0,0" VerticalAlignment="Top" Width="111" Grid.Column="3" Height="25"/>
                     <ComboBox ItemsSource="{Binding Filmovi, Mode=OneWay}" DisplayMemberPath="Naziv" HorizontalAlignment="Left" Margin="667,455,0,0" VerticalAlignment="Top" Width="111" Grid.Column="3" Height="25"/>
-                    <Button Content="Printaj raspored" HorizontalAlignment="Left" VerticalAlignment="Top" Width="174" Margin="531,515,0,0" Command="{Binding NapraviRaspored}" Grid.Column="3"/>
+                    <Button x:Name="Printaj3" Content="Printaj raspored" HorizontalAlignment="Left" VerticalAlignment="Top" Width="174" Margin="531,515,0,0" Command="{Binding NapraviRaspored}" Grid.Column="3"/>
                 </Grid>
             </TabItem>
             <TabItem Header="Dodaj/obriši film" Height="39" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="-2,0,-53,0" Width="145" FontSize="14">
