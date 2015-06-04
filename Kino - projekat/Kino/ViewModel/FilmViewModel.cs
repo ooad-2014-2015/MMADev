@@ -88,7 +88,7 @@ namespace Kino.ViewModel
                 konekcija.Open();
 
                 MySqlCommand insertFilma = new MySqlCommand("insert into film(Naziv, GodinaIzdavanja, Glumac1, Glumac2, Reziser, Zanr)"
-                    + "values('" + Film.Naziv + "','" + Film.GodinaIzdavanja + "','" + Film.Glumac1 + "','" + Film.Glumac2 + "','" + Film.Reziser + "','" + Film.Zanr + "')", konekcija);
+                    + "values('" + Film.Naziv + "','" + Film.GodinaIzdavanja + "','" + Film.Glumac1 + "','" + Film.Glumac2 + "','" + Film.Reziser + "','" + Film.zanr + "')", konekcija);
                 insertFilma.ExecuteNonQuery();
                 konekcija.Close();
                 MessageBox.Show("Uspješno ste dodali novi film!");
